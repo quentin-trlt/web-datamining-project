@@ -1,0 +1,5 @@
+# Lab 1: Web Crawling & Information Extraction
+httpx
+trafilatura
+spacy
+pandas
