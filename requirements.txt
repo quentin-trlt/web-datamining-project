@@ -3,3 +3,16 @@ httpx
 trafilatura
 spacy
 pandas
+
+# Lab 2: KB Construction & Alignment
+rdflib
+SPARQLWrapper
+
+# Lab 2: SWRL Reasoning
+owlready2
+
+# Lab 3: Knowledge Graph Embedding
+pykeen
+torch
+scikit-learn
+matplotlib
