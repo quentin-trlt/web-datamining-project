@@ -16,3 +16,6 @@ pykeen
 torch
 scikit-learn
 matplotlib
+
+# Lab 4: RAG (NL -> SPARQL)
+requests
