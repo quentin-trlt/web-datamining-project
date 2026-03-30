@@ -6,6 +6,8 @@ Runs: ontology → build KB → entity linking → predicate alignment → expan
 import argparse
 import logging
 
+from utils import project_path
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
@@ -17,10 +19,14 @@ def main() -> None:
     parser.add_argument("--skip-linking", action="store_true")
     parser.add_argument("--skip-alignment", action="store_true")
     parser.add_argument("--skip-expansion", action="store_true")
-    parser.add_argument("--entities-csv", default="data/extracted_entities.csv")
-    parser.add_argument("--relations-csv", default="data/extracted_relations.csv")
+    parser.add_argument("--entities-csv", default=None)
+    parser.add_argument("--relations-csv", default=None)
     parser.add_argument("--max-triples", type=int, default=150000)
     args = parser.parse_args()
+    if args.entities_csv is None:
+        args.entities_csv = project_path("data/extracted_entities.csv")
+    if args.relations_csv is None:
+        args.relations_csv = project_path("data/extracted_relations.csv")
 
     # Step 1: Build ontology
     if not args.skip_ontology:

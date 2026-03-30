@@ -10,6 +10,7 @@ from pathlib import Path
 from rdflib import Graph
 
 from rag.rag_engine import answer_no_rag, answer_with_sparql_generation
+from utils import project_path
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
@@ -30,12 +31,14 @@ def run_evaluation(
     g: Graph,
     schema_summary: str,
     model: str = "gemma:2b",
-    output_path: str = "data/rag_evaluation.csv",
+    output_path: str = None,
 ) -> list[dict]:
     """
     Run evaluation: for each question, get baseline and RAG answers.
     Returns list of result dicts and saves to CSV.
     """
+    if output_path is None:
+        output_path = project_path("data/rag_evaluation.csv")
     results = []
 
     for i, question in enumerate(EVAL_QUESTIONS, 1):

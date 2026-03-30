@@ -7,13 +7,6 @@ End-to-end pipeline: web crawling, information extraction, knowledge base constr
 ## Installation
 
 ```bash
-# Clone the repository
-git clone <repo-url>
-cd web-datamining-project
-
-# Create virtual environment
-python -m venv .venv
-source .venv/bin/activate  # macOS/Linux
 
 # Install dependencies
 pip install -r requirements.txt
@@ -22,8 +15,7 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 
 # Install Ollama (required for RAG module)
-# macOS: brew install ollama
-# Then pull a model:
+brew install ollama
 ollama pull gemma:2b
 ```
 

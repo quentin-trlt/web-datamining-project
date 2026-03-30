@@ -6,6 +6,8 @@ Runs: data preparation → training → evaluation → experiments.
 import argparse
 import logging
 
+from utils import project_path
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
@@ -19,8 +21,10 @@ def main() -> None:
     parser.add_argument("--models", default="TransE,ComplEx", help="Comma-separated model names")
     parser.add_argument("--embedding-dim", type=int, default=200)
     parser.add_argument("--epochs", type=int, default=100)
-    parser.add_argument("--expanded-nt", default="kg_artifacts/expanded.nt")
+    parser.add_argument("--expanded-nt", default=None)
     args = parser.parse_args()
+    if args.expanded_nt is None:
+        args.expanded_nt = project_path("kg_artifacts/expanded.nt")
 
     model_names = [m.strip() for m in args.models.split(",")]
     config = {
@@ -33,7 +37,11 @@ def main() -> None:
         logger.info("=" * 60)
         logger.info("Step 1: Data Preparation")
         from kge.prepare_data import run_data_preparation
-        run_data_preparation(expanded_nt=args.expanded_nt)
+        stats = run_data_preparation(expanded_nt=args.expanded_nt)
+        if stats["total_triples"] < 10:
+            logger.error(f"Not enough triples ({stats['total_triples']}). "
+                         "Run kg.pipeline first to build the KB.")
+            return
 
     # Step 2: Training
     trained_results = None

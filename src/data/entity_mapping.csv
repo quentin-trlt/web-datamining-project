@@ -1,0 +1,566 @@
+entity,spacy_label,wikidata_id,wikidata_label,wikidata_description,confidence,matched
+AI,ORG,Q96184770,Ai,given name,1.0,True
+AI,GPE,Q96184770,Ai,given name,1.0,True
+HAI,ORG,Q64210820,Hai,family name,1.0,True
+weekly,DATE,Q23387,week,unit of time,0.8,True
+the The New York Times,ORG,,,,0.0,False
+Bloomberg,GPE,Q22339051,Bloomberg,family name,1.0,True
+Guardian,ORG,Q5614024,Guardian,1994 3D shoot 'em up video game,1.0,True
+the United States,GPE,Q30,United States,country located primarily in North America,0.867,True
+the United Kingdom,GPE,Q145,United Kingdom,island country in north-west Europe,0.875,True
+the European Union,ORG,Q136183968,The European Union,book 2008,1.0,True
+year,DATE,Q577,year,the orbital period of the Earth: the estimated period of time for the Earth's orbit around the Sun and observed at a fixed geographic point (averaging 365.24 days); base later modified to define or adjust various calendars,1.0,True
+Stanford HAI,ORG,,,,0.281,False
+Stanford HAI,PERSON,,,,0.281,False
+annual,DATE,,,,0.667,False
+the Global AI Vibrancy Tool,ORG,,,,0.0,False
+2026,DATE,Q49613,2026,current calendar year,1.0,True
+April 13th,DATE,Q76062045,April 13th,instrumental composed by Sai Ye Htet Kaung,1.0,True
+the 21st century,DATE,Q12740585,The 21st Century,Romanian magazine,1.0,True
+Stanford University,ORG,Q41506,Stanford University,"private research university in Stanford, California, USA",1.0,True
+the fall of 2019,DATE,,,,0.0,False
+The Hague University of Applied Sciences,ORG,Q2693497,The Hague University of Applied Sciences,university in the Netherlands,1.0,True
+Read Bio,PERSON,,,,0.0,False
+HAI Executive,ORG,,,,0.0,False
+Russell Wald,PERSON,Q125296965,Russell Walden,author,0.923,True
+Wald,PERSON,Q67272,Wald,"municipality in the canton of Zürich, Switzerland",1.0,True
+China,GPE,Q29520,China,"cultural region, ancient civilization, and nation in East Asia; mostly refers to the People's Republic of China in political situation and rarely refers to the Republic of China",1.0,True
+Stanford HAI's,ORG,,,,0.0,False
+2025,DATE,Q49616,2025,calendar year,1.0,True
+Russ Altman,PERSON,Q7381092,Russ Altman,American biomedical scientist and academic,1.0,True
+the Institute for Human-Centered Artificial Intelligence,ORG,,,,0.0,False
+Vanessa Parli,PERSON,,,,0.0,False
+Stanford,ORG,Q173813,Stanford,"census-designated place in Santa Clara County, California, United States",1.0,True
+Research,ORG,Q42240,research,systematic study undertaken to increase knowledge,1.0,True
+AI Index Steering Committee,ORG,,,,0.0,False
+ETA,ORG,Q28822161,Eta,female given name,1.0,True
+TikTok,ORG,Q48938223,TikTok,video-focused social media platform,1.0,True
+Generative AI,PERSON,,,,0.684,False
+trillions of dollars,MONEY,,,,0.0,False
+5+ years ago,DATE,,,,0.0,False
+2015-Today,DATE,,,,0.0,False
+Google Research (Attention,ORG,,,,0.0,False
+Between 2015 and 2020,DATE,,,,0.0,False
+OpenAI’s GPT-3,ORG,,,,0.0,False
+GPU,ORG,,,,0.3,False
+2022+),DATE,,,,0.0,False
+a decade ago,DATE,,,,0.0,False
+Today,DATE,Q3530234,Today,album by Galaxie 500,1.0,True
+GitHub CoPilot,ORG,Q107435063,GitHub Copilot,artificial intelligence tool for code autocompletion,1.0,True
+Twitter,PERSON,Q1390577,Twitter,defunct American social media company,1.0,True
+Siri,PERSON,Q1772342,Siri,female given name,1.0,True
+3D,ORG,Q108276326,3D,periodical about computer graphics,1.0,True
+Midjourney,PERSON,Q113070628,Midjourney,AI art generator,1.0,True
+GPT-3,ORG,Q95726734,GPT-3,2020 transformer-based large language model,1.0,True
+Stable Diffusion,ORG,Q113660857,Stable Diffusion,image-generating machine learning model,1.0,True
+UI,ORG,,,,0.25,False
+IDE,ORG,Q2073462,Ide,"village in Devon, England, UK",1.0,True
+Figma,ORG,Q96186334,Figma,online vector graphics editor and prototyping tool,1.0,True
+Photoshop,PRODUCT,Q112842583,photoshopping,,0.818,True
+Discord,ORG,Q22907849,Discord,instant messaging and VoIP software,1.0,True
+Jasper,GPE,Q1665973,Jasper,male given name,1.0,True
+Runway,ORG,Q184590,runway,area of surface used by aircraft to takeoff from and land on,1.0,True
+Mem,PERSON,Q108271743,Mem,family name,1.0,True
+"Hurdles and Risks
+Despite Generative AI’s",ORG,,,,0.0,False
+decades,DATE,Q47092195,Decades,2018 compilation album by Nightwish,1.0,True
+Pixar,ORG,Q127552,Pixar,American computer animation studio,1.0,True
+Roblox,PERSON,Q692989,Roblox,multiplayer game creation platform,1.0,True
+several years,DATE,,,,0.394,False
+Call for Startups,ORG,,,,0.0,False
+Arc,PERSON,,,,0.6,False
+Arc America Fall,ORG,,,,0.0,False
+SO MUCH FUN,ORG,Q74039961,So Much Fun,2019 studio album by Young Thug,1.0,True
+2024,DATE,Q49619,2024,calendar year,1.0,True
+this year,DATE,Q124160258,This Year,2020 single written and composed by Sir Shina Peters,1.0,True
+MIT Technology Review’s,ORG,,,,0.41,False
+last year,DATE,Q122354104,Last Year,2019 video game,1.0,True
+2023,DATE,Q49622,2023,calendar year,1.0,True
+OpenAI,PERSON,Q21708200,OpenAI,American artificial intelligence research organization,1.0,True
+Biden,PERSON,Q20164199,Biden,family name,1.0,True
+October,DATE,Q124,October,tenth month in the Julian and Gregorian calendars,1.0,True
+the European Union’s AI Act,ORG,,,,0.0,False
+December,DATE,Q126,December,twelfth month in the Julian and Gregorian calendars,1.0,True
+Big Tech,ORG,Q3122864,Big Tech,label for large technology companies,1.0,True
+OpenAI,ORG,Q21708200,OpenAI,American artificial intelligence research organization,1.0,True
+Google DeepMind,ORG,Q15733006,Google DeepMind,artificial intelligence company owned by Google,1.0,True
+the AI revolution,EVENT,Q123517396,The AI revolution in science,,0.756,True
+some years,DATE,,,,0.426,False
+years,DATE,Q109595491,YEARS,2014 studio album by CHEESE CAKE,1.0,True
+next year,DATE,Q3136614,Next Year,2000 single by Foo Fighters,1.0,True
+Google,ORG,Q95,Google,"American multinational technology company, a subsidiary of Alphabet Inc.",1.0,True
+OpenAI,GPE,Q21708200,OpenAI,American artificial intelligence research organization,1.0,True
+GPT-4,PERSON,Q116709136,GPT-4,OpenAI multimodal large language model,1.0,True
+Gemini,GPE,Q8923,Gemini,zodiac constellation in the northern hemisphere,1.0,True
+"Melissa Heikkilä
+2",PERSON,,,,0.0,False
+2022,DATE,Q49625,2022,year,1.0,True
+Adobe’s Firefly,ORG,,,,0.0,False
+Balenciaga,GPE,Q1530892,Balenciaga,French fashion house and company,1.0,True
+A year ago,DATE,,,,0.667,False
+Stable Diffusion,PRODUCT,Q113660857,Stable Diffusion,image-generating machine learning model,1.0,True
+every few months,DATE,,,,0.0,False
+Pixar,PERSON,Q127552,Pixar,American computer animation studio,1.0,True
+"60,000",MONEY,Q3271915,60000,number,0.727,True
+New York,GPE,Q1384,New York,state of the United States of America,1.0,True
+Los Angeles,GPE,Q65,Los Angeles,"seat of Los Angeles County, and largest city in California, United States",1.0,True
+Paramount,ORG,Q927134,Paramount,"city in Los Angeles County, California, United States",1.0,True
+Disney,ORG,Q3260264,Disney,"town in Mayes County, Oklahoma, USA",1.0,True
+Indiana Jones,ORG,Q2562640,Indiana Jones,entertainment franchise originating in the 1980s,1.0,True
+Harrison Ford,PERSON,Q81328,Harrison Ford,American actor (born 1942),1.0,True
+UK,GPE,,,,0.444,False
+Synthesia,ORG,Q18112226,Synthesia,genus of insects,1.0,True
+SAG,ORG,Q33954,Sango,Ngbandi-based creole of the Central African Republic,0.75,True
+Souki Mehdaoui,PERSON,,,,0.0,False
+Bell & Whistle,ORG,,,,0.0,False
+Argentina,GPE,Q414,Argentina,country in South America,1.0,True
+Slovakia,GPE,Q214,Slovakia,country in Central Europe,1.0,True
+pro-European,NORP,Q3781399,pro-Europeanism,favoring European integration,0.889,True
+US,GPE,,,,0.267,False
+Donald Trump,PERSON,Q22686,Donald Trump,President of the United States (2017–2021; since 2025),1.0,True
+Just a few years ago,DATE,,,,0.0,False
+Israel,GPE,Q801,Israel,country in West Asia,1.0,True
+Adobe’s,ORG,Q11463,Adobe,American multinational computer software company,0.833,True
+The coming year,DATE,,,,0.517,False
+early days,DATE,Q15807071,Early Days,album by Krokus,1.0,True
+Google DeepMind’s,PRODUCT,,,,0.4,False
+"Melissa Heikkilä
+4
+Robots",PERSON,,,,0.0,False
+The last few years,DATE,Q107536241,The Last Few Years,scientific article,1.0,True
+OpenAI’s,ORG,,,,0.333,False
+June,DATE,Q1152453,June,unisex given name,1.0,True
+DeepMind,PERSON,Q123397963,DeepMind Fonts,open-source typeface superfamily,0.727,True
+last year’s Gato,DATE,,,,0.0,False
+RT-X,PRODUCT,,,,0.0,False
+"the University of California, Berkeley",ORG,Q5870629,"history of the University of California, Berkeley",aspect of history,0.874,True
+Lerrel Pinto,PERSON,Q135241926,Lerrel Pinto,,1.0,True
+New York University,ORG,Q49210,New York University,private university in New York City,1.0,True
+Pinto,ORG,Q10276290,Pinto,"railway station in Pinto, Spain",1.0,True
+the last couple of years,DATE,,,,0.0,False
+Meta’s,ORG,,,,0.588,False
+Wayve,GPE,Q125820744,Wayve,British autonomous driving technology startup,1.0,True
+Waabi,PERSON,Q138641427,Waabi,,1.0,True
+Cruise,PERSON,Q2063640,cruise,level flight after an aircraft climbs to a set altitude and before it begins to descend,1.0,True
+Wayve,PERSON,Q125820744,Wayve,British autonomous driving technology startup,1.0,True
+London,GPE,Q84,London,capital and largest city of England and the United Kingdom,1.0,True
+"Deep Dive
+Artificial",PERSON,,,,0.0,False
+Backlash,GPE,Q798455,backlash,adverse reaction to something which has gained popularity,1.0,True
+Trump,PERSON,Q16944413,Trump,family name,1.0,True
+Jakub Pachocki,PERSON,Q123478068,Jakub Pachocki,computer scientist,1.0,True
+Pokémon Go,PERSON,Q20966579,Pokémon Go,augmented reality mobile game based on the Pokémon franchise,1.0,True
+"MIT Technology Review
+Discover",ORG,,,,0.0,False
+the past decade,DATE,Q50304503,The past decade,scientific article published in January 2006,1.0,True
+Meta AI,ORG,Q112114913,Meta AI,artificial intelligence laboratory owned by Meta,1.0,True
+Apple's Siri,ORG,,,,0.0,False
+Amazon,ORG,Q3884,Amazon,American multinational technology company,1.0,True
+Alexa,ORG,Q1752733,Alexa,female given name,1.0,True
+Spotify,ORG,Q689141,Spotify,Swedish audio streaming service,1.0,True
+Deezer,PERSON,Q602243,Deezer,French web-based music and podcast streaming service,1.0,True
+Chinese,NORP,Q7850,Chinese,language group of the Sinitic languages,1.0,True
+DeepSeek,PRODUCT,Q131577453,DeepSeek,Chinese artificial intelligence company,1.0,True
+Gemini,PERSON,Q8923,Gemini,zodiac constellation in the northern hemisphere,1.0,True
+Meta AI,PERSON,Q112114913,Meta AI,artificial intelligence laboratory owned by Meta,1.0,True
+Apps like Midjourney or Veo 3,ORG,,,,0.0,False
+The International Monetary Fund,ORG,Q59561286,The International Monetary Fund,Congressional Research Service report,1.0,True
+Geoffrey Hinton,PERSON,Q92894,Geoffrey Hinton,British-Canadian computer scientist and psychologist,1.0,True
+Yann LeCun,PERSON,Q3571662,Yann Le Cun,French computer scientist (born 1960),0.952,True
+Apple,ORG,Q89,apple,edible fruit of the apple tree,1.0,True
+January,DATE,Q108,January,first month in the Julian and Gregorian calendars,1.0,True
+BBC,ORG,,,,0.6,False
+Luigi Mangione,PERSON,Q131411648,Luigi Mangione,American suspect of the assassination of Brian Thompson,1.0,True
+UnitedHealthcare,ORG,Q1470768,UnitedHealthcare,cycling team,1.0,True
+Brian Thompson,PERSON,Q82330,Brian Thompson,American actor,1.0,True
+Abba,PERSON,Q18233,ABBA,Swedish pop quartet,1.0,True
+Björn Ulvaeus,PERSON,Q179682,Björn Ulvaeus,Swedish musician; member of ABBA,1.0,True
+Ian Rankin,PERSON,Q318431,Ian Rankin,Scottish writer,1.0,True
+Joanne Harris,PERSON,Q234718,Joanne Harris,British and French author,1.0,True
+Julianne Moore -,PERSON,,,,0.0,False
+October 2024,DATE,Q61313017,October 2024,month of 2024,1.0,True
+Netherlands,GPE,Q55,Netherlands,one of the four autonomous countries of the Kingdom of the Netherlands; with territories in the Caribbean,1.0,True
+February,DATE,Q109,February,second month in the Julian and Gregorian calendars,1.0,True
+September 2024,DATE,Q61312994,September 2024,month of 2024,1.0,True
+Chile,GPE,Q298,Chile,"country in South America and Oceania, with a claim in Antarctica",1.0,True
+EU,ORG,Q211593,Eu,"commune in Seine-Maritime, France",1.0,True
+Artificial Intelligence Act,ORG,Q108456694,Artificial Intelligence Act,European Union regulation on artificial intelligence,1.0,True
+Keir Starmer,PERSON,Q6383803,Keir Starmer,Prime Minister of the United Kingdom since 2024,1.0,True
+AI Safety Institutes,ORG,,,,0.0,False
+February 2025,DATE,Q61312940,February 2025,month of 2025,1.0,True
+Tech Decoded,GPE,,,,0.0,False
+Microsoft,ORG,Q2283,Microsoft,American multinational technology corporation,1.0,True
+Copilot,ORG,Q107214994,Copilot,2021 film directed by Anne Zohra Berrached,1.0,True
+James Vincent,PERSON,Q65028253,James Vincent,badminton player,1.0,True
+Bing,PERSON,Q14915263,Bing,family name,1.0,True
+Bard,PERSON,Q111072624,Bard,male given name,1.0,True
+Sora,PERSON,Q117382,Sora,"comune of Lazio, Italy",1.0,True
+billion-dollar,MONEY,Q123786778,Billion dollar,song by seyi vibez,0.929,True
+Tuesday,DATE,Q127,Tuesday,day of the week,1.0,True
+the end of 2024,DATE,,,,0.0,False
+only a few months ago,DATE,,,,0.0,False
+The Wall Street Journal,ORG,Q164746,The Wall Street Journal,American business-focused daily newspaper,1.0,True
+Sam Altman,PERSON,Q7407093,Sam Altman,American venture-capitalist in Silicon Valley (born 1985),1.0,True
+API,ORG,,,,0.667,False
+The Hollywood Reporter,ORG,Q61503,The Hollywood Reporter,American publication focusing on the Hollywood motion picture industry,1.0,True
+$1 billion,MONEY,,,,0.455,False
+Disney Plus,ORG,Q76301153,Disney+ app,app for the Disney+ streaming service,0.727,True
+the same day,DATE,Q16517678,The Same Days Again,1984 studio album by Marián Varga,0.774,True
+Sarah Friar,PERSON,Q107434318,Sarah Friar,"American businesswoman, CEO of Nextdoor",1.0,True
+CNBC,ORG,Q1023912,CNBC,American basic cable and satellite business news television channel,1.0,True
+an additional $10 billion,MONEY,,,,0.0,False
+IPO,ORG,Q10536543,Ipo,genus of insects,1.0,True
+$110 billion,MONEY,,,,0.0,False
+Pixel,ORG,Q355198,pixel,physical point in a raster image,1.0,True
+six-month-old,DATE,,,,0.406,False
+Pixel,PERSON,Q355198,pixel,physical point in a raster image,1.0,True
+"Gemini AI
+Google",PERSON,,,,0.0,False
+Personal Intelligence,ORG,,,,0.0,False
+Gemini,ORG,Q8923,Gemini,zodiac constellation in the northern hemisphere,1.0,True
+Google AI Pro,ORG,,,,0.0,False
+"Search, Gemini",ORG,,,,0.0,False
+Chrome,GPE,Q118289224,Chrome,2023 studio album by Ziak,1.0,True
+YouTube,PRODUCT,Q866,YouTube,American video-sharing platform owned by Alphabet Inc.,1.0,True
+Google Photos,GPE,Q20007086,Google Photos,photo storage service developed by Google,1.0,True
+Gmail,PERSON,Q9334,Gmail,email service developed by Google,1.0,True
+Allison Johnson,PERSON,Q101811139,Allison Johnson,Barbadian cricketer,1.0,True
+earlier this year,DATE,,,,0.0,False
+months,DATE,Q5151,month,irregular unit of time dividing a calendar year,0.909,True
+Wired,GPE,Q520154,Wired,American technology magazine,1.0,True
+Julia Angwin,PERSON,Q43030208,Julia Angwin,American investigative journalist and author,1.0,True
+Wednesday,DATE,Q128,Wednesday,day of the week,1.0,True
+Superhuman,PERSON,Q7643449,superhuman,humans with abilities exceeding those found in average humans,1.0,True
+Angwin,PERSON,Q37216700,Angwin,family name,1.0,True
+Casey Newton,ORG,Q78906087,Casey Newton,American technology journalist,1.0,True
+this week,DATE,Q7786368,This Week,album by Jean Grae,1.0,True
+Verge,ORG,Q37062653,Verge,family name,1.0,True
+Grammarly’s AI-generated,ORG,,,,0.0,False
+Nilay Patel,PERSON,Q7036921,Nilay Patel,American journalist and editor-in-chief at The Verge,1.0,True
+Expert Review,ORG,,,,0.684,False
+Ailian Gan,PERSON,Q14341710,Ailian Gangbei,,0.833,True
+March 2026,DATE,Q60633772,March 2026,month of 2026,1.0,True
+NBC News,ORG,Q2877626,NBC News,news division of NBC,1.0,True
+Democrats,NORP,Q1185830,Democrats,political party in Brazil (2007–2022),1.0,True
+Iran,GPE,Q794,Iran,country in Western Asia,1.0,True
+the previous month,DATE,,,,0.0,False
+Focus Features,ORG,Q649649,Focus Features,art house films division of NBCUniversal,1.0,True
+doc,ORG,Q17018111,Doc,male given name,1.0,True
+March 27th,DATE,Q2457,March 27,day of the year,0.889,True
+Google’s Super Bowl,ORG,,,,0.0,False
+The “New Home,ORG,,,,0.0,False
+Gouda,ORG,Q84125,Gouda,"municipality in the province of South Holland, Netherlands",1.0,True
+Super Bowl,EVENT,Q32096,Super Bowl,National Football League championship game,1.0,True
+the last year,DATE,Q5274490,The Last Year,1951 film by E.W. Fiedler,1.0,True
+the last few days,DATE,Q48461712,The last few days,"scientific article published on July 1, 1992",1.0,True
+"Instagram
+Instagram",ORG,,,,0.0,False
+Adam Mosseri,PERSON,Q56877012,Adam Mosseri,American businessman,1.0,True
+Sarah Jeong,PERSON,Q26923818,Sarah Jeong,American journalist,1.0,True
+Mosseri,NORP,Q37493388,Mosseri,family name,1.0,True
+Mosseri,ORG,Q37493388,Mosseri,family name,1.0,True
+Instagram,ORG,Q209330,Instagram,photo and video sharing social network owned by Meta Platforms,1.0,True
+Label AI-generated,PERSON,,,,0.0,False
+Redfin’s AI,ORG,,,,0.0,False
+LLM,ORG,,,,0.261,False
+FedEx,GPE,Q459477,FedEx,American multinational delivery services company,1.0,True
+Spotify,GPE,Q689141,Spotify,Swedish audio streaming service,1.0,True
+Sony Music Group,ORG,Q121433363,Sony Music Group,American multinational company,1.0,True
+Universal Music Group,ORG,Q38903,Universal Music Group,Dutch–American music corporation,1.0,True
+Warner Music Group,ORG,Q21077,Warner Music Group,American multinational entertainment and record label conglomerate,1.0,True
+Merlin,NORP,Q16279386,Merlin,male given name,1.0,True
+Believe,PERSON,Q815612,Believe,2012 studio album by Justin Bieber,1.0,True
+Two weeks ago,DATE,,,,0.0,False
+Hallwood Media,PERSON,,,,0.0,False
+Telisha,ORG,Q7697335,telisha,"two Hebrew cantilation marks, of similar shape",1.0,True
+Nikki,ORG,Q1990345,Nikki,unisex given name,1.0,True
+$3 million,MONEY,,,,0.465,False
+Billboard,PERSON,Q485240,Billboard,American weekly music magazine,1.0,True
+Jones,PERSON,Q59853,Jones,family name,1.0,True
+Mississippi,GPE,Q1494,Mississippi,state of the United States of America,1.0,True
+R&B,ORG,,,,0.5,False
+Xania Monet,PERSON,Q136700389,Xania Monet,American AI-generated virtual singer created by Telisha “Nikki” Jones,1.0,True
+Claude,ORG,Q17523984,Claude,unisex given name,1.0,True
+Reuters,ORG,Q130879,Reuters,international news agency,1.0,True
+Eddy Cue,PERSON,Q224628,Eddy Cue,American businessman,1.0,True
+tens of billions of dollars,MONEY,,,,0.0,False
+Safari,PERSON,Q35773,Safari,web browser developed by Apple,1.0,True
+the White House’s,ORG,Q67082481,The White House School,"school in Shropshire, UK",0.821,True
+Ben Davis,PERSON,Q4885514,Ben Davis,player of American football,1.0,True
+ArtNet,ORG,Q266566,Artnet,art market website,1.0,True
+Founders Museum,ORG,,,,0.0,False
+American,NORP,Q846570,Americans,citizens and nationals of the United States of America,0.941,True
+Africans,PERSON,Q14196,Afrikaans,"West Germanic language, spoken in South Africa and Namibia",0.824,True
+WSJ,ORG,,,,0.333,False
+Stein-Erik Soelberg,PERSON,,,,0.0,False
+56-year-old,DATE,,,,0.415,False
+earlier this month,DATE,,,,0.0,False
+Journal,ORG,,,,0.609,False
+Chatbot,PERSON,Q870780,chatbot,program or set of instructions that simulates conversation with humans,1.0,True
+Old Greenwich[Wall Street Journal,ORG,,,,0.0,False
+Alex Heath,PERSON,Q109500846,Alex Heath,Verge employee,1.0,True
+Nick Turley,PERSON,Q134051514,Nick Turley,"German-American computer scientist, product manager and musician",1.0,True
+Thursday,DATE,Q129,Thursday,day of the week,1.0,True
+Nick,GPE,Q13137230,Nick,male given name,1.0,True
+each week,DATE,,,,0.231,False
+Decoder,PRODUCT,Q745243,decoder,device which reverses the operation of an encoder,1.0,True
+Photos,GPE,,,,0.625,False
+47-year-old,DATE,,,,0.468,False
+Canadian,NORP,Q1196645,Canadians,citizens and nationals of Canada,0.941,True
+Google Gemini,ORG,Q135267995,Google Gemini on Wear OS,smartwatch app developed by Google,0.703,True
+U.S.,GPE,,,,0.286,False
+the Stanford Institute for Human-Centered Artificial Intelligence,ORG,,,,0.0,False
+This past year,DATE,,,,0.0,False
+2021,DATE,Q49628,2021,year,1.0,True
+GSM8K,ORG,Q121360456,GSM8K,grade school math question-answering dataset,1.0,True
+AgentBench,ORG,,,,0.0,False
+2019,DATE,Q25274,2019,year,1.0,True
+UC Berkeley,ORG,,,,0.489,False
+an estimated $191 million,MONEY,,,,0.0,False
+an estimated $78 million,MONEY,,,,0.0,False
+2017,DATE,Q25290,2017,year,1.0,True
+Transformer,ORG,Q11658,transformer,electrical device that transfers energy through electromagnetic induction from one circuit to another circuit,1.0,True
+around $900,MONEY,,,,0.0,False
+AI Race,ORG,,,,0.0,False
+Private Investment Drops,ORG,,,,0.0,False
+$25.2 billion,MONEY,,,,0.0,False
+$$ Race,MONEY,,,,0.0,False
+$67.2 billion,MONEY,,,,0.0,False
+2013,DATE,Q1998,2013,year,1.0,True
+$335.2 billion,MONEY,,,,0.0,False
+$103.7 billion,MONEY,,,,0.0,False
+$22.3 billion,MONEY,,,,0.0,False
+"Wealthier People Worry About Jobs
+Globally",PERSON,,,,0.0,False
+Gen X,PERSON,,,,0.588,False
+Gen Z,ORG,Q28448286,Gen-Z,trade group of technology vendors,0.8,True
+"the Commonwealth Worries About AI Products
+When",ORG,,,,0.0,False
+Aussies,ORG,,,,0.471,False
+Brits,NORP,Q124208179,Brits,family name,1.0,True
+Japan,GPE,Q17,Japan,island country in East Asia,1.0,True
+the Copyright Office,ORG,,,,0.0,False
+the Library of Congress,ORG,Q131454,Library of Congress,(de facto) national library of the United States of America,0.905,True
+the Securities and Exchange Commission,ORG,Q16305093,"The Securities and Exchange Commission, Thailand",,0.884,True
+the Executive Office,ORG,,,,0.494,False
+the Commerce Department,ORG,,,,0.0,False
+LinkedIn,GPE,Q213660,LinkedIn,American social networking website for people in professional occupations,1.0,True
+"McKinsey, Studyportals",ORG,,,,0.0,False
+the Schwartz Reisman Institute,ORG,,,,0.0,False
+the International Federation of Robotics,ORG,,,,0.0,False
+Each year,DATE,,,,0.346,False
+a really big year,DATE,,,,0.0,False
+the past three years,DATE,,,,0.0,False
+IEEE Spectrum,ORG,Q2509689,IEEE Spectrum,journal,1.0,True
+Spectrum,PERSON,Q104828631,Spectrum,2014 video game,1.0,True
+Nestor Maslej,PERSON,,,,0.0,False
+Maslej,PERSON,Q118078633,Maślej,family name,0.833,True
+Foundation,ORG,Q157031,foundation,type of nonprofit organization,1.0,True
+Shakespearean,NORP,Q1152184,Shakespearean comedy,theatrical genre,0.788,True
+Epoch AI,PERSON,,,,0.0,False
+Epoch,GPE,Q2703,epoch,moment in time used as a reference point for some time-varying astronomical quantity,1.0,True
+Google’s 2017,ORG,,,,0.0,False
+today,DATE,Q3530234,Today,album by Galaxie 500,1.0,True
+930,MONEY,Q3710584,930,natural number,1.0,True
+daily,DATE,Q65256591,Daily,female given name,1.0,True
+Maslej,ORG,Q118078633,Maślej,family name,0.833,True
+the most recent year,DATE,,,,0.0,False
+the last few years,DATE,Q107536241,The Last Few Years,scientific article,1.0,True
+AP,ORG,,,,0.571,False
+North American,NORP,Q49,North America,continent in the Americas,0.963,True
+CS,ORG,,,,0.444,False
+the last five years,DATE,Q1218921,The Last Five Years,2001 musical,1.0,True
+Chatter,PERSON,Q2636013,Chatteris,"civil parish and one of the four market towns in the Fenland district of Cambridgeshire, England",0.875,True
+McKinsey,PERSON,Q6801999,McKinsey,family name,1.0,True
+at least $500 million,MONEY,,,,0.0,False
+recent years,DATE,Q84873779,Recent Years,scientific article published on 01 December 1902,1.0,True
+A decade ago,DATE,,,,0.0,False
+ImageNet,ORG,Q24901201,ImageNet,image dataset,1.0,True
+five or six years,DATE,,,,0.0,False
+a year,DATE,,,,0.6,False
+ToxiGen,ORG,Q135369184,Toxigenesis,"wide, high-tech sans-serif typeface with a scientific-industrial aesthetic",0.778,True
+BOLD,PERSON,Q16860189,Bold,family name,1.0,True
+BBQ,ORG,Q110249420,BBQ,episode of Bluey (S1 E7),1.0,True
+Between 2016 and 2023,DATE,,,,0.0,False
+(ages 16 to 74,DATE,,,,0.0,False
+the year before,DATE,Q61473393,The Year Before the War,2021 film directed by Dāvis Sīmanis Jr.,0.789,True
+the next few years,DATE,,,,0.0,False
+Western,NORP,Q21590660,Western,multimedia genre of stories set primarily in the American Old West,1.0,True
+Indonesia,GPE,Q252,Indonesia,island country in Southeast Asia and Oceania,1.0,True
+Thailand,GPE,Q869,Thailand,country in Southeast Asia,1.0,True
+July 2024,DATE,Q61312808,July 2024,month of 2024,1.0,True
+Humming - IEEE Spectrum,ORG,,,,0.0,False
+ARIA Is Searching For Better AI Tech,ORG,,,,0.0,False
+Foundation Model Decodes Whale,ORG,,,,0.0,False
+Bird Calls - IEEE Spectrum,PERSON,,,,0.0,False
+Columbia University,ORG,Q49088,Columbia University,"private university in New York City, New York, US",1.0,True
+Android,ORG,Q94,Android,operating system created by Google for use on mobile devices,1.0,True
+Skywater,PERSON,,,,0.593,False
+the AI Benchmarks,ORG,,,,0.0,False
+non-LLM,ORG,,,,0.0,False
+Jaswant Singh Chail,PERSON,Q138454321,Jaswant Singh Chail,British man convicted of treason,1.0,True
+21-year-old,DATE,,,,0.533,False
+Chail,PERSON,Q2552715,Chailey,"village and civil parish in East Sussex, UK",0.833,True
+nine-year,DATE,Q56042008,nine-year-old,,0.818,True
+Christmas Day 2021,DATE,,,,0.0,False
+Sarai,PERSON,Q20001080,Sarai,female given name,1.0,True
+Replika,PERSON,Q52047634,Replika,,1.0,True
+Sarai,GPE,Q20001080,Sarai,female given name,1.0,True
+December 2021,DATE,Q61312898,December 2021,month of 2021,1.0,True
+Sikh Sith,PERSON,,,,0.0,False
+Cardiff University,ORG,Q1035745,Cardiff University,"public research university in Cardiff, United Kingdom",1.0,True
+the University of Surrey,ORG,,,,0.0,False
+Valentina Pitardi,PERSON,,,,0.0,False
+Pitardi,PERSON,Q10350101,Pitardia,genus of plants,0.933,True
+Marjorie Wallace,PERSON,Q6766345,Marjorie Wallace,British journalist,1.0,True
+SANE,ORG,Q18681630,Sane,,1.0,True
+Paul Marsden,PERSON,Q3330215,Paul Marsden,British politician (born 1968),1.0,True
+the British Psychological Society,ORG,Q77525520,THE BRITISH PSYCHOLOGICAL SOCIETY,scientific article published on 01 February 2001,1.0,True
+GPT,ORG,Q95726718,GPT-1,generative pre-trained transformer-based language model from 2018,0.75,True
+Dr Marsden,PERSON,,,,0.0,False
+King Cnut,PERSON,,,,0.0,False
+Pew Research Center,ORG,Q1635722,Pew Research Center,"think tank based in Washington, D.C., US",1.0,True
+Americans,NORP,Q846570,Americans,citizens and nationals of the United States of America,1.0,True
+"Dec. 12-18, 2022",DATE,,,,0.0,False
+the Center’s American Trends Panel,ORG,,,,0.0,False
+ATP,ORG,,,,0.6,False
+The Pew Research Center,ORG,,,,0.0,False
+November 2021,DATE,Q61312917,November 2021,month of 2021,1.0,True
+COVID-19,ORG,Q84263196,COVID-19,contagious disease caused by SARS-CoV-2,1.0,True
+ages 18 to 29,DATE,,,,0.0,False
+Republicans,NORP,Q926973,Republicans,Brazilian political party,1.0,True
+About a quarter,DATE,Q25379692,About a Quarter to Nine,1935 song written by Harry Warren and Al Dubin; for the musical film Go Into Your Dance,0.789,True
+each day,DATE,Q81080261,Each Day,Band,1.0,True
+ML,ORG,Q860654,ML,functional programming language,1.0,True
+the Think Newsletter,ORG,,,,0.0,False
+more than 70 years,DATE,Q104904534,defunct more than 70 years ago,heuristic for determination of copyright status of an organization that became defunct more than 70 years ago,0.75,True
+KNN,ORG,,,,0.353,False
+Deep,NORP,Q16275349,Deep,male given name,1.0,True
+NLP,ORG,,,,0.25,False
+the last decade,DATE,,,,0.385,False
+weeks,DATE,Q7979526,Weeks,family name,1.0,True
+millions of dollars,MONEY,,,,0.551,False
+Meta,ORG,Q380,Meta,American multinational technology corporation,1.0,True
+Next,ORG,Q308993,NeXT,American computer company founded by Steve Jobs (1985–1997),1.0,True
+a week,DATE,Q106206127,A Week Away,2021 film directed by Roman White,0.706,True
+every year,DATE,Q138773730,Every Year After,american series,0.769,True
+18 months,DATE,Q204494,18 Months,2012 studio album by Calvin Harris,1.0,True
+Agentic AI,PERSON,Q137485935,agentic AI browser,,0.714,True
+Gen AI,PERSON,,,,0.588,False
+Nepal,GPE,Q837,Nepal,country in South Asia,1.0,True
+Chatbots,PERSON,Q870780,chatbot,program or set of instructions that simulates conversation with humans,0.933,True
+IoT,ORG,Q96708468,IoT,scientific journal,1.0,True
+OT,ORG,Q21148371,Ot,given name,1.0,True
+Robust AI,ORG,,,,0.367,False
+GDPR,ORG,Q66498590,GDPR,1998th strip of the webcomic xkcd,1.0,True
+Amazon’s Alexa,ORG,,,,0.441,False
+Apple’s Siri,ORG,,,,0.0,False
+Tesla,ORG,Q163343,tesla,SI unit of magnetic flux density,1.0,True
+AGI,ORG,Q96652129,Agi,male given name,1.0,True
+Greece,GPE,Q41,Greece,country in Southeast Europe,1.0,True
+1950,DATE,Q18597,1950,year,1.0,True
+Alan Turing,PERSON,Q7251,Alan Turing,English computer scientist (1912–1954),1.0,True
+Computing Machinery,PERSON,Q41519516,Computing Machinery and Mentality,"scientific article published on June 1, 1997",0.731,True
+Intelligence,ORG,Q1665657,Intelligence,peer-reviewed academic journal of psychology,1.0,True
+German,NORP,Q188,German,West Germanic language native to Central Europe,1.0,True
+WWII,EVENT,Q7957296,WWII,1982 studio album by Waylon Jennings and Willie Nelson,1.0,True
+"the ""Turing Test",ORG,,,,0.299,False
+1956,DATE,Q5221,1956,year,1.0,True
+John McCarthy,PERSON,Q92739,John McCarthy,American computer scientist and cognitive scientist (1927-2011),1.0,True
+Dartmouth College,ORG,Q49116,Dartmouth College,"private university in Hanover, New Hampshire, US",1.0,True
+McCarthy,PERSON,Q24419041,McCarthy,family name,1.0,True
+Later that year,DATE,,,,0.0,False
+Allen Newell,PERSON,Q439245,Allen Newell,American cognitive scientist (1927–1992),1.0,True
+J.C. Shaw,ORG,,,,0.0,False
+Herbert Simon,PERSON,Q110040930,Herbert Simon,born:1898. died:1974,1.0,True
+the Logic Theorist,ORG,,,,0.0,False
+1967,DATE,Q2648,1967,year,1.0,True
+Frank Rosenblatt,PERSON,Q93018,Frank Rosenblatt,American psychologist notable in the field of artificial intelligence,1.0,True
+Just a year later,DATE,,,,0.0,False
+Marvin Minsky,PERSON,Q204815,Marvin Minsky,American cognitive scientist (1927-2016),1.0,True
+Seymour Papert,PERSON,Q335027,Seymour Papert,"MIT mathematician, computer scientist, and educator (1928–2016)",1.0,True
+Perceptrons,EVENT,Q4359403,Perceptrons,book authored by Marvin Minsky and Seymour Papert,1.0,True
+1980,DATE,Q2439,1980,year,1.0,True
+1995,DATE,Q2068,1995,year,1.0,True
+Stuart Russell,PERSON,Q7627055,Stuart Russell,British politician (1909-1943),1.0,True
+Peter Norvig,PERSON,Q12331673,Peter Norvig,Danish real-estate agent,1.0,True
+Artificial Intelligence,ORG,Q11660,artificial intelligence,field of computer science that develops and studies software enabling machines to exhibit intelligent behavior,1.0,True
+1997,DATE,Q2088,1997,year,1.0,True
+IBM,ORG,Q37156,IBM,American multinational technology corporation,1.0,True
+Deep Blue,PRODUCT,Q98117455,Deep blue,2020 studio album by Sora Tob Sakana,1.0,True
+Garry Kasparov,PERSON,Q28614,Garry Kasparov,Russian chess grandmaster and activist,1.0,True
+2004,DATE,Q2014,2004,year,1.0,True
+one day,DATE,Q136716184,One Day,"2024 original song written by Marijn van der Meer, Jorrit Kleijnen and Gordon Groothedde, and performed by Haevn",1.0,True
+2011,DATE,Q1994,2011,year,1.0,True
+Watson®,PERSON,,,,0.0,False
+Ken Jennings,PERSON,Q186,Ken Jennings,"American game show contestant, host, and writer",1.0,True
+Brad Rutter,PERSON,Q4954227,Brad Rutter,American game show contestant,1.0,True
+2015,DATE,Q2002,2015,year,1.0,True
+Baidu,ORG,Q14772,Baidu,Chinese web services company,1.0,True
+Minwa,ORG,,,,0.333,False
+2016,DATE,Q25245,2016,year,1.0,True
+AlphaGo,ORG,Q40415503,AlphaGo,2017 documentary film about AlphaGo,1.0,True
+Lee Sodol,PERSON,,,,0.0,False
+over 14.5 trillion,MONEY,,,,0.0,False
+DeepMind,PRODUCT,Q123397963,DeepMind Fonts,open-source typeface superfamily,0.727,True
+ZDNET,PERSON,Q2457578,ZDNET,business technology news website,1.0,True
+the 1950s,DATE,Q58254953,THE 1950s,,1.0,True
+Turing,ORG,Q104650420,Turing,family name,1.0,True
+Microsoft Copilot,ORG,Q116793893,Microsoft Copilot,AI chatbot by Microsoft,1.0,True
+Google AI,ORG,Q30688088,Google AI,Google division dedicated to artificial intelligence,1.0,True
+Google Search,ORG,Q9366,Google Search,search engine by Google LLC,1.0,True
+Claude,PERSON,Q17523984,Claude,unisex given name,1.0,True
+Examples of ML,ORG,,,,0.0,False
+Siri,GPE,Q1772342,Siri,female given name,1.0,True
+ANI,ORG,Q4764403,Ani,female given name,1.0,True
+ASI,ORG,Q37073580,Asi,family name,1.0,True
+3.5,PRODUCT,Q6116798,3.5,2004 remix album by Safri Duo,1.0,True
+Generative Pre-trained,PERSON,Q116777014,generative pre-trained transformer,type of large language model,0.786,True
+2020,DATE,Q25337,2020,year,1.0,True
+Alphabet,ORG,Q9779,alphabet,standard set of letters present in some written languages,1.0,True
+Uber Eats,PERSON,Q21462723,Uber Eats,meal delivery service,1.0,True
+San Francisco,GPE,Q62,San Francisco,"consolidated city and county in California, United States",1.0,True
+CA,ORG,,,,0.5,False
+Phoenix,GPE,Q16556,Phoenix,"seat of Maricopa County, largest city in, and capital of, the State of Arizona, United States",1.0,True
+AZ,ORG,,,,0.444,False
+Audi,ORG,Q37451905,Audi,family name,1.0,True
+GM,ORG,,,,0.667,False
+Ford,ORG,Q11247279,Ford,family name,1.0,True
+Boston Dynamics,ORG,Q2298325,Boston Dynamics,engineering and robotics design company,1.0,True
+Boston Dyanmics',ORG,,,,0.0,False
+AlphaFold,ORG,Q60827595,AlphaFold,software by DeepMind,1.0,True
+Chatbot Arena,PERSON,,,,0.556,False
+GPT-4 Turbo,PERSON,,,,0.0,False
+1.78 trillion,MONEY,,,,0.0,False
+Amazon Alexa,ORG,Q28022144,Amazon Alexa,virtual assistant service,1.0,True
+Perplexity,ORG,Q7169579,Perplexity,1990 video game,1.0,True
+Google Translate,ORG,Q135622,Google Translate,multilingual neural machine translation service from Google,1.0,True
+Microsoft Translator,ORG,Q21490961,Microsoft Translator,multilingual machine translation cloud service provided by Microsoft,1.0,True
+Amazon Translate,ORG,,,,0.0,False
+Microsoft 365,ORG,Q775811,Microsoft 365,subscription to a range of office software products from Microsoft,1.0,True
+Excel,PRODUCT,Q1383448,Excel,American musical group; crossover thrash band,1.0,True
+Teams,ORG,Q1341461,TEAMS,cable system of Kenya,1.0,True
+Email,PERSON,Q9158,email,electronic changing digital messages between a network,1.0,True
+Clarifai,ORG,Q55607729,Clarifai,company specialized in computer vision,1.0,True
+Amazon Rekognition,PERSON,Q74235852,Amazon Rekognition,cloud-based Software as a service computer vision platform,1.0,True
+AWS,ORG,,,,0.286,False
+OpenAI Codex,ORG,Q108582200,OpenAI Codex,artifical intelligence model geared towards programming,1.0,True
+GPT-4 API,PERSON,,,,0.0,False
+Amazon Bedrock,ORG,Q124052638,Amazon Bedrock,foundation model hosting service offered by Amazon Web Services,1.0,True
+"Alphabet
+Google's",ORG,,,,0.0,False
+Google Bard,PRODUCT,,,,0.235,False
+Bard,ORG,Q111072624,Bard,male given name,1.0,True
+Bard for Gemini,ORG,,,,0.0,False
+Document AI,ORG,Q105686599,Document AI,Field of technology that employs machine learning,1.0,True
+Youtube,GPE,Q866,YouTube,American video-sharing platform owned by Alphabet Inc.,1.0,True
+Alphabet's AI,ORG,,,,0.0,False
+every day,DATE,Q90728073,Every Day,2019 song by SCH,1.0,True
+Nadella,PERSON,Q36984943,Nadella,family name,1.0,True
+Copilot,GPE,Q107214994,Copilot,2021 film directed by Anne Zohra Berrached,1.0,True
+Microsoft Designer,ORG,Q114618924,Microsoft Designer,graphics software,1.0,True
+"Apple
+Apple",ORG,,,,0.0,False
+Lenovo,ORG,Q14799,Lenovo,Chinese multinational technology company established in 1984,1.0,True
+"AI
+However",ORG,,,,0.0,False

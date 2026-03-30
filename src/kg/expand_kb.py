@@ -12,6 +12,8 @@ import pandas as pd
 from rdflib import Graph, Literal, Namespace, OWL, RDF, RDFS, URIRef
 from SPARQLWrapper import SPARQLWrapper, JSON
 
+from utils import project_path
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
@@ -168,12 +170,14 @@ def expand_kb(
     alignment_graph: Graph,
     mapping_df: pd.DataFrame,
     max_triples: int = 150000,
-    cache_path: str = "data/wikidata_cache.json",
+    cache_path: str = None,
 ) -> Graph:
     """
     Expand the KB by querying Wikidata for aligned entities.
     Uses 1-hop, 2-hop, and predicate-controlled expansion.
     """
+    if cache_path is None:
+        cache_path = project_path("data/wikidata_cache.json")
     expansion_graph = Graph()
     expansion_graph.bind("wd", WD)
     expansion_graph.bind("wdt", WDT)
@@ -318,14 +322,24 @@ def compute_statistics(graph: Graph) -> dict:
 
 
 def run_expansion(
-    alignment_ttl: str = "kg_artifacts/alignment.ttl",
-    initial_kb_path: str = "kg_artifacts/initial_kb.ttl",
-    mapping_csv: str = "data/entity_mapping.csv",
-    output_nt: str = "kg_artifacts/expanded.nt",
-    stats_output: str = "data/kb_statistics.json",
+    alignment_ttl: str = None,
+    initial_kb_path: str = None,
+    mapping_csv: str = None,
+    output_nt: str = None,
+    stats_output: str = None,
     max_triples: int = 150000,
 ) -> Path:
     """Run the full KB expansion pipeline."""
+    if alignment_ttl is None:
+        alignment_ttl = project_path("kg_artifacts/alignment.ttl")
+    if initial_kb_path is None:
+        initial_kb_path = project_path("kg_artifacts/initial_kb.ttl")
+    if mapping_csv is None:
+        mapping_csv = project_path("data/entity_mapping.csv")
+    if output_nt is None:
+        output_nt = project_path("kg_artifacts/expanded.nt")
+    if stats_output is None:
+        stats_output = project_path("data/kb_statistics.json")
     # Load alignment graph and mapping
     alignment_graph = Graph()
     if Path(alignment_ttl).exists():

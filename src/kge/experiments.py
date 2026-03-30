@@ -11,18 +11,24 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+from utils import project_path
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
 
 def kb_size_sensitivity(
-    data_dir: str = "kge_datasets",
+    data_dir: str = None,
     sizes: list[int] | None = None,
-    output_path: str = "reports/kb_size_sensitivity.csv",
+    output_path: str = None,
 ) -> pd.DataFrame:
     """
     Train TransE on subsets of the KB (20k, 50k, full) and compare metrics.
     """
+    if data_dir is None:
+        data_dir = project_path("kge_datasets")
+    if output_path is None:
+        output_path = project_path("reports/kb_size_sensitivity.csv")
     from pykeen.triples import TriplesFactory
     from pykeen.pipeline import pipeline
 
@@ -112,9 +118,11 @@ def nearest_neighbors(
     training,
     entity_names: list[str] | None = None,
     k: int = 10,
-    output_path: str = "reports/nearest_neighbors.json",
+    output_path: str = None,
 ) -> dict:
     """Find k nearest neighbors in embedding space for selected entities."""
+    if output_path is None:
+        output_path = project_path("reports/nearest_neighbors.json")
     import torch
 
     model = result.model
@@ -173,10 +181,12 @@ def nearest_neighbors(
 def tsne_visualization(
     result,
     training,
-    output_path: str = "reports/tsne.png",
+    output_path: str = None,
     max_entities: int = 2000,
 ) -> Path:
     """Run t-SNE on entity embeddings and plot colored by entity type."""
+    if output_path is None:
+        output_path = project_path("reports/tsne.png")
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
@@ -243,9 +253,11 @@ def tsne_visualization(
 def relation_behavior_analysis(
     result,
     training,
-    output_path: str = "reports/relation_analysis.csv",
+    output_path: str = None,
 ) -> pd.DataFrame:
     """Analyze relation embeddings: symmetry, inverse, composition patterns."""
+    if output_path is None:
+        output_path = project_path("reports/relation_analysis.csv")
     import torch
 
     model = result.model
@@ -299,12 +311,14 @@ def relation_behavior_analysis(
 def rule_vs_embedding_comparison(
     result,
     training,
-    output_path: str = "reports/rule_vs_embedding.csv",
+    output_path: str = None,
 ) -> pd.DataFrame:
     """
     Compare SWRL-style rules with embedding vector arithmetic.
     Example: vector(develops) + vector(AIProduct_type) ≈ vector(AICompany_type)?
     """
+    if output_path is None:
+        output_path = project_path("reports/rule_vs_embedding.csv")
     import torch
 
     model = result.model
@@ -359,11 +373,17 @@ def rule_vs_embedding_comparison(
 
 def run_experiments(
     trained_results: dict | None = None,
-    data_dir: str = "kge_datasets",
-    models_dir: str = "data/kge_models",
-    output_dir: str = "reports",
+    data_dir: str = None,
+    models_dir: str = None,
+    output_dir: str = None,
 ) -> None:
     """Run all experiments."""
+    if data_dir is None:
+        data_dir = project_path("kge_datasets")
+    if models_dir is None:
+        models_dir = project_path("data/kge_models")
+    if output_dir is None:
+        output_dir = project_path("reports")
     from kge.train_models import load_pykeen_dataset
 
     training, validation, testing = load_pykeen_dataset(data_dir)

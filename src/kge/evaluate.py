@@ -7,6 +7,8 @@ from pathlib import Path
 
 import pandas as pd
 
+from utils import project_path
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
@@ -58,14 +60,20 @@ def compare_models(results: dict[str, dict]) -> pd.DataFrame:
 
 def run_evaluation(
     trained_results: dict | None = None,
-    data_dir: str = "kge_datasets",
-    models_dir: str = "data/kge_models",
-    output_path: str = "data/kge_evaluation.csv",
+    data_dir: str = None,
+    models_dir: str = None,
+    output_path: str = None,
 ) -> pd.DataFrame:
     """
     Evaluate all trained models.
     Can accept pre-loaded results dict or load from disk.
     """
+    if data_dir is None:
+        data_dir = project_path("kge_datasets")
+    if models_dir is None:
+        models_dir = project_path("data/kge_models")
+    if output_path is None:
+        output_path = project_path("data/kge_evaluation.csv")
     from kge.train_models import load_pykeen_dataset
 
     training, validation, testing = load_pykeen_dataset(data_dir)

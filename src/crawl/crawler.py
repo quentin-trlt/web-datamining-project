@@ -105,7 +105,7 @@ def is_useful(page_data: dict) -> bool:
     return page_data["word_count"] >= MIN_WORD_COUNT
 
 
-def crawl(urls: list[str] | None = None, output_path: str = "data/crawler_output.jsonl") -> Path:
+def crawl(urls: list[str] | None = None, output_path: str = None) -> Path:
     """
     Crawl the given URLs (or SEED_URLS by default), clean content, and save to JSONL.
 
@@ -113,6 +113,9 @@ def crawl(urls: list[str] | None = None, output_path: str = "data/crawler_output
     """
     if urls is None:
         urls = SEED_URLS
+    if output_path is None:
+        from utils import project_path
+        output_path = project_path("data/crawler_output.jsonl")
 
     output_file = Path(output_path)
     output_file.parent.mkdir(parents=True, exist_ok=True)

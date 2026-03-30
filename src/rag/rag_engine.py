@@ -57,6 +57,15 @@ def load_graph(path: str) -> Graph:
     p = Path(path)
     fmt = "nt" if p.suffix == ".nt" else "turtle"
     g.parse(str(p), format=fmt)
+
+    # Fallback to initial_kb.ttl if expanded is empty
+    if len(g) == 0:
+        from utils import project_path
+        fallback = Path(project_path("kg_artifacts/initial_kb.ttl"))
+        if fallback.exists():
+            logger.warning(f"Graph empty, falling back to {fallback}")
+            g.parse(str(fallback), format="turtle")
+
     logger.info(f"Loaded {len(g)} triples from {p}")
     return g
 

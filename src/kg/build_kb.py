@@ -10,6 +10,8 @@ import pandas as pd
 from rdflib import Graph, Literal, Namespace, RDF, RDFS, URIRef
 from rdflib.namespace import DCTERMS
 
+from utils import project_path
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
@@ -130,11 +132,17 @@ def build_initial_graph(entities_df: pd.DataFrame, relations_df: pd.DataFrame) -
 
 
 def build_kb(
-    entities_csv: str = "data/extracted_entities.csv",
-    relations_csv: str = "data/extracted_relations.csv",
-    output_path: str = "kg_artifacts/initial_kb.ttl",
+    entities_csv: str = None,
+    relations_csv: str = None,
+    output_path: str = None,
 ) -> Path:
     """Run the full KB build pipeline."""
+    if entities_csv is None:
+        entities_csv = project_path("data/extracted_entities.csv")
+    if relations_csv is None:
+        relations_csv = project_path("data/extracted_relations.csv")
+    if output_path is None:
+        output_path = project_path("kg_artifacts/initial_kb.ttl")
     ent_df = load_entities(Path(entities_csv))
     rel_df = load_relations(Path(relations_csv))
     g = build_initial_graph(ent_df, rel_df)

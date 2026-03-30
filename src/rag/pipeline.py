@@ -5,6 +5,7 @@ RAG pipeline orchestrator: CLI demo with interactive REPL and batch evaluation.
 import argparse
 import logging
 
+from utils import project_path
 from rag.rag_engine import (
     answer_no_rag,
     answer_with_sparql_generation,
@@ -85,7 +86,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="RAG Pipeline — NL to SPARQL")
     parser.add_argument(
         "--kg-path",
-        default="kg_artifacts/expanded.nt",
+        default=None,
         help="Path to the RDF knowledge graph (default: kg_artifacts/expanded.nt)",
     )
     parser.add_argument(
@@ -99,6 +100,8 @@ def main() -> None:
         help="Run batch evaluation instead of interactive mode",
     )
     args = parser.parse_args()
+    if args.kg_path is None:
+        args.kg_path = project_path("kg_artifacts/expanded.nt")
 
     # Load graph and build schema
     logger.info("Loading knowledge graph...")

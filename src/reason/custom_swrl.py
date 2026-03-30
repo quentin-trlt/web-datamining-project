@@ -10,13 +10,17 @@ from pathlib import Path
 import owlready2
 from rdflib import Graph, Namespace, RDF, RDFS, URIRef
 
+from utils import project_path
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
 AIB_NS = "http://example.org/ai-news/"
 
 
-def build_ai_ontology_owl(expanded_nt: str = "kg_artifacts/expanded.nt") -> owlready2.Ontology:
+def build_ai_ontology_owl(expanded_nt: str = None) -> owlready2.Ontology:
+    if expanded_nt is None:
+        expanded_nt = project_path("kg_artifacts/expanded.nt")
     """
     Build an OWL ontology from the expanded KB for SWRL reasoning.
     Extracts organizations, products, and develops relationships.
@@ -28,7 +32,7 @@ def build_ai_ontology_owl(expanded_nt: str = "kg_artifacts/expanded.nt") -> owlr
         rdf_graph.parse(str(nt_path), format="nt")
     else:
         logger.warning(f"Expanded KB not found or empty at {expanded_nt}, using initial KB")
-        initial_path = Path("kg_artifacts/initial_kb.ttl")
+        initial_path = Path(project_path("kg_artifacts/initial_kb.ttl"))
         if initial_path.exists():
             rdf_graph.parse(str(initial_path), format="turtle")
 
@@ -186,9 +190,13 @@ def run_reasoner_and_display(onto: owlready2.Ontology) -> list[str]:
 
 
 def run_custom_swrl(
-    expanded_nt: str = "kg_artifacts/expanded.nt",
-    output_path: str = "data/swrl_inferred_results.csv",
+    expanded_nt: str = None,
+    output_path: str = None,
 ) -> list[str]:
+    if expanded_nt is None:
+        expanded_nt = project_path("kg_artifacts/expanded.nt")
+    if output_path is None:
+        output_path = project_path("data/swrl_inferred_results.csv")
     """Run the complete custom SWRL demonstration."""
     logger.info("=" * 60)
     logger.info("Part 2: Custom SWRL Reasoning on AI-News KB")

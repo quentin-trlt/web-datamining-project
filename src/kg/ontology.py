@@ -9,6 +9,8 @@ from pathlib import Path
 from rdflib import Graph, Literal, Namespace, RDF, RDFS, OWL, XSD
 from rdflib.namespace import DCTERMS
 
+from utils import project_path
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
@@ -88,7 +90,9 @@ def build_ontology() -> Graph:
     return g
 
 
-def run_ontology(output_path: str = "kg_artifacts/ontology.ttl") -> Path:
+def run_ontology(output_path: str = None) -> Path:
+    if output_path is None:
+        output_path = project_path("kg_artifacts/ontology.ttl")
     """Build ontology and serialize to Turtle."""
     g = build_ontology()
     out = Path(output_path)

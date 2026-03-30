@@ -1,6 +1,7 @@
 # Lab 1: Web Crawling & Information Extraction
 httpx
 trafilatura
+lxml_html_clean
 spacy
 pandas
 

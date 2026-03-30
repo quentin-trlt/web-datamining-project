@@ -1,0 +1,3636 @@
+@prefix aib: <http://example.org/ai-news/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+
+aib:1956 a aib:Event ;
+    rdfs:label "1956" ;
+    aib:coin aib:AI,
+        aib:Dartmouth_College,
+        aib:John_McCarthy ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:1967 a aib:Event ;
+    rdfs:label "1967" ;
+    aib:build aib:Frank_Rosenblatt ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:1980 a aib:Event ;
+    rdfs:label "1980" ;
+    aib:use aib:AI ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:1995 a aib:Event ;
+    rdfs:label "1995" ;
+    aib:related_to aib:AI,
+        aib:Artificial_Intelligence,
+        aib:Peter_Norvig,
+        aib:Stuart_Russell ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:1997 a aib:Event ;
+    rdfs:label "1997" ;
+    aib:beat aib:Deep_Blue,
+        aib:Garry_Kasparov,
+        aib:IBM ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:2004 a aib:Event ;
+    rdfs:label "2004" ;
+    aib:write aib:AI,
+        aib:John_McCarthy ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:2011 a aib:Event ;
+    rdfs:label "2011" ;
+    aib:related_to aib:Brad_Rutter,
+        aib:IBM,
+        aib:Ken_Jennings,
+        aib:Watson ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:2013 a aib:Event ;
+    rdfs:label "2013" ;
+    aib:look aib:1037_billion,
+        aib:223_billion,
+        aib:3352_billion,
+        aib:China,
+        aib:the_United_Kingdom,
+        aib:the_United_States ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:2015 a aib:Event ;
+    rdfs:label "2015" ;
+    aib:use aib:Baidu,
+        aib:Minwa ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:2015-Today a aib:Event ;
+    rdfs:label "2015-Today" ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:2016 a aib:Event ;
+    rdfs:label "2016" ;
+    aib:beat aib:AlphaGo,
+        aib:Lee_Sodol ;
+    aib:make aib:AI,
+        aib:AlphaGo ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:47-year-old a aib:Event ;
+    rdfs:label "47-year-old" ;
+    aib:dig aib:Canadian ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:5_years_ago a aib:Event ;
+    rdfs:label "5+ years ago" ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:AI_However a aib:Organization ;
+    rdfs:label """AI
+However""" ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:AI_Race a aib:Organization ;
+    rdfs:label "AI Race" ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:ANI a aib:Organization ;
+    rdfs:label "ANI" ;
+    aib:call aib:AI ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:AP a aib:Organization ;
+    rdfs:label "AP" ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:ATP a aib:Organization ;
+    rdfs:label "ATP" ;
+    dcterms:source <https://www.pewresearch.org/science/2023/02/15/public-awareness-of-artificial-intelligence-in-everyday-activities/> .
+
+aib:A_decade_ago a aib:Event ;
+    rdfs:label "A decade ago" ;
+    aib:say aib:AI,
+        aib:ImageNet,
+        aib:five_or_six_years ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:A_year_ago a aib:Event ;
+    rdfs:label "A year ago" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Abba a aib:Person ;
+    rdfs:label "Abba" ;
+    aib:writer aib:Björn_Ulvaeus,
+        aib:Ian_Rankin,
+        aib:Joanne_Harris,
+        aib:Julianne_Moore_-,
+        aib:October_2024 ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:Africans a aib:Person ;
+    rdfs:label "Africans" ;
+    aib:mention aib:AI ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Agentic_AI a aib:Person ;
+    rdfs:label "Agentic AI" ;
+    aib:related_to aib:AI ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Alex_Heath a aib:Person ;
+    rdfs:label "Alex Heath" ;
+    aib:explain aib:Nick_Turley ;
+    aib:m aib:Thursday ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Allison_Johnson a aib:Person ;
+    rdfs:label "Allison Johnson" ;
+    aib:s aib:AI,
+        aib:earlier_this_year ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Alphabet_Googles a aib:Organization ;
+    rdfs:label """Alphabet
+Google's""" ;
+    aib:have aib:AI,
+        aib:Alphabet,
+        aib:DeepMind,
+        aib:Google ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Alphabets_AI a aib:Organization ;
+    rdfs:label "Alphabet's AI" ;
+    aib:have aib:AI,
+        aib:every_day ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Amazons_Alexa a aib:Organization ;
+    rdfs:label "Amazon’s Alexa" ;
+    aib:include aib:Apples_Siri,
+        aib:Tesla ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Angwin a aib:Person ;
+    rdfs:label "Angwin" ;
+    aib:say aib:Casey_Newton,
+        aib:this_week ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Apple_Apple a aib:Organization ;
+    rdfs:label """Apple
+Apple""" ;
+    aib:enter aib:AI ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Apps_like_Midjourney_or_Veo_3 a aib:Organization ;
+    rdfs:label "Apps like Midjourney or Veo 3" ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:Arc a aib:Person ;
+    rdfs:label "Arc" ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:Arc_America_Fall a aib:Organization ;
+    rdfs:label "Arc America Fall" ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:Argentina a aib:Location ;
+    rdfs:label "Argentina" ;
+    aib:create aib:AI ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Ben_Davis a aib:Person ;
+    rdfs:label "Ben Davis" ;
+    aib:write aib:AI,
+        aib:American,
+        aib:ArtNet,
+        aib:Founders_Museum ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Between_2015_and_2020 a aib:Event ;
+    rdfs:label "Between 2015 and 2020" ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:Boston_Dynamics a aib:Organization ;
+    rdfs:label "Boston Dynamics" ;
+    aib:stand aib:AI ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Call_for_Startups a aib:Organization ;
+    rdfs:label "Call for Startups" ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:Cardiff_University a aib:Organization ;
+    rdfs:label "Cardiff University" ;
+    aib:carry aib:Replika,
+        aib:the_University_of_Surrey ;
+    dcterms:source <https://www.bbc.com/news/technology-67012224> .
+
+aib:Chatbot a aib:Person ;
+    rdfs:label "Chatbot" ;
+    aib:upgrade aib:Gemini,
+        aib:Old_GreenwichWall_Street_Journal ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Chatbots a aib:Person ;
+    rdfs:label "Chatbots" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Chatter a aib:Person ;
+    rdfs:label "Chatter" ;
+    aib:related_to aib:AI ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Clarifai a aib:Organization ;
+    rdfs:label "Clarifai" ;
+    aib:related_to aib:AWS,
+        aib:Amazon_Rekognition ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Columbia_University a aib:Organization ;
+    rdfs:label "Columbia University" ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Decoder a aib:Product ;
+    rdfs:label "Decoder" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Deep a aib:NationalGroup ;
+    rdfs:label "Deep" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Deep_Dive_Artificial a aib:Person ;
+    rdfs:label """Deep Dive
+Artificial""" ;
+    aib:urge aib:AI,
+        aib:Backlash,
+        aib:Trump ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Document_AI a aib:Organization ;
+    rdfs:label "Document AI" ;
+    aib:develop aib:Youtube ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Dr_Marsden a aib:Person ;
+    rdfs:label "Dr Marsden" ;
+    aib:related_to aib:AI ;
+    dcterms:source <https://www.bbc.com/news/technology-67012224> .
+
+aib:ETA a aib:Organization ;
+    rdfs:label "ETA" ;
+    aib:analyze aib:TikTok ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:EU a aib:Organization ;
+    rdfs:label "EU" ;
+    aib:place aib:Artificial_Intelligence_Act ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:Each_year a aib:Event ;
+    rdfs:label "Each year" ;
+    aib:related_to aib:2023,
+        aib:AI,
+        aib:a_really_big_year,
+        aib:this_year ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Eddy_Cue a aib:Person ;
+    rdfs:label "Eddy Cue" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Email a aib:Person ;
+    rdfs:label "Email" ;
+    aib:use aib:AI,
+        aib:Copilot ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Epoch a aib:Location ;
+    rdfs:label "Epoch" ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Examples_of_ML a aib:Organization ;
+    rdfs:label "Examples of ML" ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Expert_Review a aib:Organization ;
+    rdfs:label "Expert Review" ;
+    aib:say aib:Ailian_Gan,
+        aib:Superhuman ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:February_2025 a aib:Event ;
+    rdfs:label "February 2025" ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:FedEx a aib:Location ;
+    rdfs:label "FedEx" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Focus_Features a aib:Organization ;
+    rdfs:label "Focus Features" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:GDPR a aib:Organization ;
+    rdfs:label "GDPR" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:GPT-4_Turbo a aib:Person ;
+    rdfs:label "GPT-4 Turbo" ;
+    aib:consider aib:178_trillion,
+        aib:GPT-4 ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:GPU a aib:Organization ;
+    rdfs:label "GPU" ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:GSM8K a aib:Organization ;
+    rdfs:label "GSM8K" ;
+    aib:achieve aib:AgentBench ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:Gen_AI a aib:Person ;
+    rdfs:label "Gen AI" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Gen_Z a aib:Organization ;
+    rdfs:label "Gen Z" ;
+    aib:believe aib:AI ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:Geoffrey_Hinton a aib:Person ;
+    rdfs:label "Geoffrey Hinton" ;
+    aib:express aib:AI,
+        aib:Yann_LeCun ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:German a aib:NationalGroup ;
+    rdfs:label "German" ;
+    aib:ask aib:WWII,
+        aib:the_Turing_Test ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:GitHub_CoPilot a aib:Organization ;
+    rdfs:label "GitHub CoPilot" ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:Google_AI a aib:Organization ;
+    rdfs:label "Google AI" ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Google_AI_Pro a aib:Organization ;
+    rdfs:label "Google AI Pro" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Google_DeepMinds a aib:Product ;
+    rdfs:label "Google DeepMind’s" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Google_Gemini a aib:Organization ;
+    rdfs:label "Google Gemini" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Google_Research_Attention a aib:Organization ;
+    rdfs:label "Google Research (Attention" ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:Google_Search a aib:Organization ;
+    rdfs:label "Google Search" ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Googles_2017 a aib:Organization ;
+    rdfs:label "Google’s 2017" ;
+    aib:relatedTo aib:930,
+        aib:US,
+        aib:today ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Gouda a aib:Organization ;
+    rdfs:label "Gouda" ;
+    aib:steer aib:Gemini,
+        aib:Super_Bowl,
+        aib:last_year ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Greece a aib:Location ;
+    rdfs:label "Greece" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:HAI a aib:Organization ;
+    rdfs:label "HAI" ;
+    aib:discuss aib:AI,
+        aib:Russ_Altman,
+        aib:the_Institute_for_Human-Centered_Artificial_Intelligence ;
+    aib:update aib:weekly ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:HAI_Executive a aib:Organization ;
+    rdfs:label "HAI Executive" ;
+    aib:explore aib:AI,
+        aib:Russell_Wald ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:Hurdles_and_Risks_Despite_Generative_AIs a aib:Organization ;
+    rdfs:label """Hurdles and Risks
+Despite Generative AI’s""" ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:IDE a aib:Organization ;
+    rdfs:label "IDE" ;
+    aib:related_to aib:AI,
+        aib:Discord,
+        aib:Figma,
+        aib:Photoshop ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:Instagram_Instagram a aib:Organization ;
+    rdfs:label """Instagram
+Instagram""" ;
+    aib:say aib:2025,
+        aib:Adam_Mosseri,
+        aib:years ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:IoT a aib:Organization ;
+    rdfs:label "IoT" ;
+    aib:analyze aib:OT ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Israel a aib:Location ;
+    rdfs:label "Israel" ;
+    aib:flood aib:Adobes ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:James_Vincent a aib:Person ;
+    rdfs:label "James Vincent" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Japan a aib:Location ;
+    rdfs:label "Japan" ;
+    aib:related_to aib:AI ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:Jaswant_Singh_Chail a aib:Person ;
+    rdfs:label "Jaswant Singh Chail" ;
+    dcterms:source <https://www.bbc.com/news/technology-67012224> .
+
+aib:Jones a aib:Person ;
+    rdfs:label "Jones" ;
+    aib:related_to aib:AI,
+        aib:Instagram,
+        aib:Mississippi,
+        aib:RB,
+        aib:Spotify,
+        aib:Xania_Monet ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Journal a aib:Organization ;
+    rdfs:label "Journal" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Julia_Angwin a aib:Person ;
+    rdfs:label "Julia Angwin" ;
+    aib:allege aib:Superhuman,
+        aib:Wednesday ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:July_2024 a aib:Event ;
+    rdfs:label "July 2024" ;
+    aib:appear aib:2023,
+        aib:2024,
+        aib:AI,
+        aib:ARIA_Is_Searching_For_Better_AI_Tech,
+        aib:Bird_Calls_-_IEEE_Spectrum,
+        aib:Foundation_Model_Decodes_Whale,
+        aib:Google,
+        aib:Humming_-_IEEE_Spectrum,
+        aib:IEEE_Spectrum,
+        aib:UK ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:June a aib:Event ;
+    rdfs:label "June" ;
+    aib:release aib:DeepMind,
+        aib:last_years_Gato ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Just_a_few_years_ago a aib:Event ;
+    rdfs:label "Just a few years ago" ;
+    aib:require aib:AI ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Just_a_year_later a aib:Event ;
+    rdfs:label "Just a year later" ;
+    aib:publish aib:Marvin_Minsky,
+        aib:Perceptrons,
+        aib:Seymour_Papert ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:KNN a aib:Organization ;
+    rdfs:label "KNN" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:King_Cnut a aib:Person ;
+    rdfs:label "King Cnut" ;
+    dcterms:source <https://www.bbc.com/news/technology-67012224> .
+
+aib:Label_AI-generated a aib:Person ;
+    rdfs:label "Label AI-generated" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Last_year rdfs:label "Last year" ;
+    aib:write aib:Instagram,
+        aib:Mosseri,
+        aib:Sarah_Jeong .
+
+aib:Later_that_year a aib:Event ;
+    rdfs:label "Later that year" ;
+    aib:create aib:AI,
+        aib:Allen_Newell,
+        aib:Herbert_Simon,
+        aib:JC_Shaw,
+        aib:the_Logic_Theorist ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Lerrel_Pinto a aib:Person ;
+    rdfs:label "Lerrel Pinto" ;
+    aib:lead aib:New_York_University ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:LinkedIn a aib:Location ;
+    rdfs:label "LinkedIn" ;
+    aib:collaborate aib:AI,
+        aib:McKinsey_Studyportals,
+        aib:the_International_Federation_of_Robotics,
+        aib:the_Schwartz_Reisman_Institute ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:MIT_Technology_Review_Discover a aib:Organization ;
+    rdfs:label """MIT Technology Review
+Discover""" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:March_2026 a aib:Event ;
+    rdfs:label "March 2026" ;
+    aib:show aib:AI,
+        aib:Democrats,
+        aib:Iran,
+        aib:NBC_News ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:March_27th a aib:Event ;
+    rdfs:label "March 27th" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Marjorie_Wallace a aib:Person ;
+    rdfs:label "Marjorie Wallace" ;
+    aib:say aib:AI,
+        aib:Chail,
+        aib:SANE ;
+    dcterms:source <https://www.bbc.com/news/technology-67012224> .
+
+aib:McCarthy a aib:Person ;
+    rdfs:label "McCarthy" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:McKinsey a aib:Person ;
+    rdfs:label "McKinsey" ;
+    aib:show aib:AI ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Melissa_Heikkilä_2 a aib:Person ;
+    rdfs:label """Melissa Heikkilä
+2""" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Melissa_Heikkilä_4_Robots a aib:Person ;
+    rdfs:label """Melissa Heikkilä
+4
+Robots""" ;
+    aib:related_to aib:AI ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Meta a aib:Organization ;
+    rdfs:label "Meta" ;
+    aib:enable aib:AI ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Midjourney a aib:Person ;
+    rdfs:label "Midjourney" ;
+    aib:generate aib:SO_MUCH_FUN ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:Nestor_Maslej a aib:Person ;
+    rdfs:label "Nestor Maslej" ;
+    aib:tell aib:2023,
+        aib:AI,
+        aib:Spectrum,
+        aib:year ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Next a aib:Organization ;
+    rdfs:label "Next" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Non-LLM rdfs:label "Non-LLM" ;
+    aib:measure aib:ImageNet .
+
+aib:North_American a aib:NationalGroup ;
+    rdfs:label "North American" ;
+    aib:show aib:CS,
+        aib:the_last_five_years ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:November_2021 a aib:Event ;
+    rdfs:label "November 2021" ;
+    dcterms:source <https://www.pewresearch.org/science/2023/02/15/public-awareness-of-artificial-intelligence-in-everyday-activities/> .
+
+aib:OpenAIs a aib:Organization ;
+    rdfs:label "OpenAI’s" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Paramount a aib:Organization ;
+    rdfs:label "Paramount" ;
+    aib:explore aib:AI,
+        aib:Disney ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Paul_Marsden a aib:Person ;
+    rdfs:label "Paul Marsden" ;
+    aib:related_to aib:the_British_Psychological_Society ;
+    dcterms:source <https://www.bbc.com/news/technology-67012224> .
+
+aib:Pew_Research_Center a aib:Organization ;
+    rdfs:label "Pew Research Center" ;
+    aib:conduct aib:Americans,
+        aib:daily ;
+    aib:find aib:Americans,
+        aib:daily ;
+    dcterms:source <https://www.pewresearch.org/science/2023/02/15/public-awareness-of-artificial-intelligence-in-everyday-activities/> .
+
+aib:Pinto a aib:Organization ;
+    rdfs:label "Pinto" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Pitardi a aib:Person ;
+    rdfs:label "Pitardi" ;
+    aib:say aib:Replika ;
+    dcterms:source <https://www.bbc.com/news/technology-67012224> .
+
+aib:Pokémon_Go a aib:Person ;
+    rdfs:label "Pokémon Go" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Private_Investment_Drops a aib:Organization ;
+    rdfs:label "Private Investment Drops" ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:Read_Bio a aib:Person ;
+    rdfs:label "Read Bio" ;
+    aib:join aib:AI ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:Redfins_AI a aib:Organization ;
+    rdfs:label "Redfin’s AI" ;
+    aib:m aib:AI ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Robust_AI a aib:Organization ;
+    rdfs:label "Robust AI" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:September_2024 a aib:Event ;
+    rdfs:label "September 2024" ;
+    aib:say aib:Chile,
+        aib:Google ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:Sikh_Sith a aib:Person ;
+    rdfs:label "Sikh Sith" ;
+    dcterms:source <https://www.bbc.com/news/technology-67012224> .
+
+aib:Skywater a aib:Person ;
+    rdfs:label "Skywater" ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Slovakia a aib:Location ;
+    rdfs:label "Slovakia" ;
+    aib:spread aib:pro-European ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Souki_Mehdaoui a aib:Person ;
+    rdfs:label "Souki Mehdaoui" ;
+    aib:say aib:Bell_Whistle ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Stanford_HAIs a aib:Organization ;
+    rdfs:label "Stanford HAI's" ;
+    aib:provide aib:2025,
+        aib:AI ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:Tech_Decoded a aib:Location ;
+    rdfs:label "Tech Decoded" ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:The_Hollywood_Reporter a aib:Organization ;
+    rdfs:label "The Hollywood Reporter" ;
+    aib:license aib:1_billion,
+        aib:AI,
+        aib:December,
+        aib:Disney,
+        aib:Disney_Plus,
+        aib:OpenAI,
+        aib:Sora ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:The_International_Monetary_Fund a aib:Organization ;
+    rdfs:label "The International Monetary Fund" ;
+    aib:warn aib:AI ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:The_New_Home a aib:Organization ;
+    rdfs:label "The “New Home" ;
+    aib:feature aib:Gemini ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:The_Pew_Research_Center a aib:Organization ;
+    rdfs:label "The Pew Research Center" ;
+    aib:find aib:AI,
+        aib:Americans,
+        aib:Dec_12-18_2022,
+        aib:US ;
+    dcterms:source <https://www.pewresearch.org/science/2023/02/15/public-awareness-of-artificial-intelligence-in-everyday-activities/> .
+
+aib:The_United_States rdfs:label "The United States" ;
+    aib:note aib:AI,
+        aib:Maslej,
+        aib:the_United_States .
+
+aib:The_Wall_Street_Journal a aib:Organization ;
+    rdfs:label "The Wall Street Journal" ;
+    aib:report aib:API,
+        aib:OpenAI,
+        aib:Sam_Altman,
+        aib:Sora,
+        aib:TikTok ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:The_coming_year a aib:Event ;
+    rdfs:label "The coming year" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:The_last_few_years a aib:Event ;
+    rdfs:label "The last few years" ;
+    aib:see aib:AI ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:This_past_year a aib:Event ;
+    rdfs:label "This past year" ;
+    aib:edge aib:Gemini,
+        aib:Google ;
+    aib:release aib:2022,
+        aib:Stanford,
+        aib:UC_Berkeley ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:This_year rdfs:label "This year" ;
+    aib:do aib:AI,
+        aib:at_least_500_million ;
+    aib:have aib:60000,
+        aib:Los_Angeles,
+        aib:New_York ;
+    aib:related_to aib:AI,
+        aib:Spectrum .
+
+aib:Today a aib:Event ;
+    rdfs:label "Today" ;
+    aib:exist aib:Generative_AI ;
+    aib:have aib:Google,
+        aib:Pixel,
+        aib:six-month-old ;
+    aib:related_to aib:AI ;
+    aib:talk aib:Nick_Turley,
+        aib:OpenAI ;
+    aib:use aib:Generative_AI ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:Twitter a aib:Person ;
+    rdfs:label "Twitter" ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:Two_weeks_ago a aib:Event ;
+    rdfs:label "Two weeks ago" ;
+    aib:report aib:3_million,
+        aib:Billboard,
+        aib:Hallwood_Media,
+        aib:Nikki,
+        aib:Telisha ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Valentina_Pitardi a aib:Person ;
+    rdfs:label "Valentina Pitardi" ;
+    aib:tell aib:BBC,
+        aib:the_University_of_Surrey ;
+    dcterms:source <https://www.bbc.com/news/technology-67012224> .
+
+aib:Vanessa_Parli a aib:Person ;
+    rdfs:label "Vanessa Parli" ;
+    aib:note aib:2025,
+        aib:AI,
+        aib:AI_Index_Steering_Committee,
+        aib:Research,
+        aib:Stanford ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:Verge a aib:Organization ;
+    rdfs:label "Verge" ;
+    aib:pop aib:Grammarlys_AI-generated,
+        aib:Nilay_Patel ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:WSJ a aib:Organization ;
+    rdfs:label "WSJ" ;
+    aib:find aib:56-year-old,
+        aib:Stein-Erik_Soelberg,
+        aib:earlier_this_month ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Wald a aib:Person ;
+    rdfs:label "Wald" ;
+    aib:explain aib:AI,
+        aib:China ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:Wayve a aib:Location,
+        aib:Person ;
+    rdfs:label "Wayve" ;
+    aib:pioneer aib:AI,
+        aib:Waabi ;
+    aib:test aib:London ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Wealthier_People_Worry_About_Jobs_Globally a aib:Person ;
+    rdfs:label """Wealthier People Worry About Jobs
+Globally""" ;
+    aib:expect aib:AI ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:ZDNET a aib:Person ;
+    rdfs:label "ZDNET" ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:a_decade_ago a aib:Event ;
+    rdfs:label "a decade ago" ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:doc a aib:Organization ;
+    rdfs:label "doc" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:each_week a aib:Event ;
+    rdfs:label "each week" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:early_days a aib:Event ;
+    rdfs:label "early days" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:every_year a aib:Event ;
+    rdfs:label "every year" ;
+    aib:update aib:18_months ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:months a aib:Event ;
+    rdfs:label "months" ;
+    aib:sue aib:Wired ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:non-LLM a aib:Organization ;
+    rdfs:label "non-LLM" ;
+    aib:get aib:LLM ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:one_day a aib:Event ;
+    rdfs:label "one day" ;
+    aib:related_to aib:AI ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:over_145_trillion a schema1:MonetaryAmount ;
+    rdfs:label "over 14.5 trillion" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:recent_years a aib:Event ;
+    rdfs:label "recent years" ;
+    aib:outperform aib:AI,
+        aib:Maslej ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:the_1950s a aib:Event ;
+    rdfs:label "the 1950s" ;
+    aib:related_to aib:decades ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:the_AI_Benchmarks a aib:Organization ;
+    rdfs:label "the AI Benchmarks" ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:the_Centers_American_Trends_Panel a aib:Organization ;
+    rdfs:label "the Center’s American Trends Panel" ;
+    dcterms:source <https://www.pewresearch.org/science/2023/02/15/public-awareness-of-artificial-intelligence-in-everyday-activities/> .
+
+aib:the_Commonwealth_Worries_About_AI_Products_When a aib:Organization ;
+    rdfs:label """the Commonwealth Worries About AI Products
+When""" ;
+    aib:say aib:AI,
+        aib:Aussies,
+        aib:Brits ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:the_Copyright_Office a aib:Organization ;
+    rdfs:label "the Copyright Office" ;
+    aib:pass aib:AI,
+        aib:the_Library_of_Congress,
+        aib:the_Securities_and_Exchange_Commission ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:the_Executive_Office a aib:Organization ;
+    rdfs:label "the Executive Office" ;
+    aib:related_to aib:the_Commerce_Department ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:the_The_New_York_Times a aib:Organization ;
+    rdfs:label "the The New York Times" ;
+    aib:cite aib:Bloomberg,
+        aib:Guardian,
+        aib:the_European_Union,
+        aib:the_United_Kingdom,
+        aib:the_United_States ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:the_University_of_California_Berkeley a aib:Organization ;
+    rdfs:label "the University of California, Berkeley" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:the_White_Houses a aib:Organization ;
+    rdfs:label "the White House’s" ;
+    aib:related_to aib:AI ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:the_last_couple_of_years a aib:Event ;
+    rdfs:label "the last couple of years" ;
+    aib:start aib:Metas ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:the_last_decade a aib:Event ;
+    rdfs:label "the last decade" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:the_last_few_years a aib:Event ;
+    rdfs:label "the last few years" ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:the_last_year a aib:Event ;
+    rdfs:label "the last year" ;
+    aib:make aib:AI,
+        aib:the_last_few_days ;
+    aib:say aib:Maslej ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:the_past_decade a aib:Event ;
+    rdfs:label "the past decade" ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:the_past_three_years a aib:Event ;
+    rdfs:label "the past three years" ;
+    aib:read aib:2021,
+        aib:2022,
+        aib:2023,
+        aib:AI,
+        aib:IEEE_Spectrum ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:the_same_day a aib:Event ;
+    rdfs:label "the same day" ;
+    aib:tell aib:110_billion,
+        aib:CNBC,
+        aib:February,
+        aib:IPO,
+        aib:Sarah_Friar,
+        aib:an_additional_10_billion ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:weeks a aib:Event ;
+    rdfs:label "weeks" ;
+    aib:require aib:millions_of_dollars ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:18_months a aib:Event ;
+    rdfs:label "18 months" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:1950 a aib:Event ;
+    rdfs:label "1950" ;
+    aib:include aib:Alan_Turing,
+        aib:Computing_Machinery,
+        aib:Intelligence ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:21-year-old a aib:Event ;
+    rdfs:label "21-year-old" ;
+    aib:give aib:Chail,
+        aib:nine-year ;
+    dcterms:source <https://www.bbc.com/news/technology-67012224> .
+
+aib:252_billion a schema1:MonetaryAmount ;
+    rdfs:label "$25.2 billion" ;
+    aib:attract aib:2019,
+        aib:2022 ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:3D a aib:Organization ;
+    rdfs:label "3D" ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:60000 a schema1:MonetaryAmount ;
+    rdfs:label "60,000" ;
+    aib:have aib:Los_Angeles,
+        aib:New_York ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:672_billion a schema1:MonetaryAmount ;
+    rdfs:label "$67.2 billion" ;
+    aib:related_to aib:China,
+        aib:US,
+        aib:the_United_Kingdom ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:ASI a aib:Organization ;
+    rdfs:label "ASI" ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Adam_Mosseri a aib:Person ;
+    rdfs:label "Adam Mosseri" ;
+    aib:say aib:2025,
+        aib:years ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Adobes a aib:Organization ;
+    rdfs:label "Adobe’s" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Adobes_Firefly a aib:Organization ;
+    rdfs:label "Adobe’s Firefly" ;
+    aib:flood aib:Balenciaga ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:AgentBench a aib:Organization ;
+    rdfs:label "AgentBench" ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:Ailian_Gan a aib:Person ;
+    rdfs:label "Ailian Gan" ;
+    aib:say aib:Superhuman ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Allen_Newell a aib:Person ;
+    rdfs:label "Allen Newell" ;
+    aib:create aib:AI,
+        aib:Herbert_Simon,
+        aib:JC_Shaw,
+        aib:the_Logic_Theorist ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:AlphaFold a aib:Organization ;
+    rdfs:label "AlphaFold" ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Amazon a aib:Organization ;
+    rdfs:label "Amazon" ;
+    aib:related_to aib:Alexa ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:Amazon_Rekognition a aib:Person ;
+    rdfs:label "Amazon Rekognition" ;
+    aib:related_to aib:AWS ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Apples_Siri a aib:Organization ;
+    rdfs:label "Apple's Siri",
+        "Apple’s Siri" ;
+    aib:include aib:Tesla ;
+    aib:related_to aib:Alexa,
+        aib:Amazon ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333>,
+        <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:ArtNet a aib:Organization ;
+    rdfs:label "ArtNet" ;
+    aib:write aib:AI,
+        aib:American,
+        aib:Founders_Museum ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Artificial_Intelligence_Act a aib:Organization ;
+    rdfs:label "Artificial Intelligence Act" ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:Audi a aib:Organization ;
+    rdfs:label "Audi" ;
+    aib:related_to aib:Ford,
+        aib:GM ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Backlash a aib:Location ;
+    rdfs:label "Backlash" ;
+    aib:urge aib:AI,
+        aib:Trump ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Baidu a aib:Organization ;
+    rdfs:label "Baidu" ;
+    aib:make aib:Cruise,
+        aib:Lenovo,
+        aib:Tesla ;
+    aib:use aib:Minwa ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Bard_for_Gemini a aib:Organization ;
+    rdfs:label "Bard for Gemini" ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Bell_Whistle a aib:Organization ;
+    rdfs:label "Bell & Whistle" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Between_2016_and_2023 a aib:Event ;
+    rdfs:label "Between 2016 and 2023" ;
+    aib:pass aib:AI,
+        aib:the_United_States ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Björn_Ulvaeus a aib:Person ;
+    rdfs:label "Björn Ulvaeus" ;
+    aib:writer aib:Ian_Rankin,
+        aib:Joanne_Harris,
+        aib:Julianne_Moore_-,
+        aib:October_2024 ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:Bloomberg a aib:Location ;
+    rdfs:label "Bloomberg" ;
+    aib:cite aib:Guardian,
+        aib:the_European_Union,
+        aib:the_United_Kingdom,
+        aib:the_United_States ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:Boston_Dyanmics a aib:Organization ;
+    rdfs:label "Boston Dyanmics'" ;
+    aib:use aib:AI ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:CS a aib:Organization ;
+    rdfs:label "CS" ;
+    aib:show aib:the_last_five_years ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Canadian a aib:NationalGroup ;
+    rdfs:label "Canadian" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Casey_Newton a aib:Organization ;
+    rdfs:label "Casey Newton" ;
+    aib:say aib:this_week ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Chatbot_Arena a aib:Person ;
+    rdfs:label "Chatbot Arena" ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Christmas_Day_2021 a aib:Event ;
+    rdfs:label "Christmas Day 2021" ;
+    aib:hear aib:Replika,
+        aib:Sarai ;
+    dcterms:source <https://www.bbc.com/news/technology-67012224> .
+
+aib:Cruise a aib:Person ;
+    rdfs:label "Cruise" ;
+    aib:make aib:Lenovo,
+        aib:Tesla ;
+    aib:related_to aib:Audi,
+        aib:Ford,
+        aib:GM ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Deezer a aib:Person ;
+    rdfs:label "Deezer" ;
+    aib:spotify aib:AI ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:Donald_Trump a aib:Person ;
+    rdfs:label "Donald Trump" ;
+    aib:cheer aib:AI ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Epoch_AI a aib:Person ;
+    rdfs:label "Epoch AI" ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Figma a aib:Organization ;
+    rdfs:label "Figma" ;
+    aib:related_to aib:AI,
+        aib:Discord,
+        aib:Photoshop ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:Foundation a aib:Organization ;
+    rdfs:label "Foundation" ;
+    aib:related_to aib:GPT-4,
+        aib:OpenAIs_GPT-3,
+        aib:Shakespearean ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Frank_Rosenblatt a aib:Person ;
+    rdfs:label "Frank Rosenblatt" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:GPT a aib:Organization ;
+    rdfs:label "GPT" ;
+    aib:related_to aib:2020,
+        aib:35,
+        aib:AI,
+        aib:GPT-3,
+        aib:Generative_Pre-trained,
+        aib:Transformer ;
+    dcterms:source <https://www.bbc.com/news/technology-67012224> .
+
+aib:GPT-4_API a aib:Person ;
+    rdfs:label "GPT-4 API" ;
+    aib:create aib:AI,
+        aib:Amazon_Bedrock ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Gen_X a aib:Person ;
+    rdfs:label "Gen X" ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:Generative_Pre-trained a aib:Person ;
+    rdfs:label "Generative Pre-trained" ;
+    aib:related_to aib:2020,
+        aib:GPT-3,
+        aib:Transformer ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Googles_Super_Bowl a aib:Organization ;
+    rdfs:label "Google’s Super Bowl" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Grammarlys_AI-generated a aib:Organization ;
+    rdfs:label "Grammarly’s AI-generated" ;
+    aib:pop aib:Nilay_Patel ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Hallwood_Media a aib:Person ;
+    rdfs:label "Hallwood Media" ;
+    aib:report aib:3_million,
+        aib:Billboard,
+        aib:Nikki,
+        aib:Telisha ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Indiana_Jones a aib:Organization ;
+    rdfs:label "Indiana Jones" ;
+    aib:star aib:Harrison_Ford ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Jakub_Pachocki a aib:Person ;
+    rdfs:label "Jakub Pachocki" ;
+    aib:throw aib:AI ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Jasper a aib:Location ;
+    rdfs:label "Jasper" ;
+    aib:be aib:Mem,
+        aib:Runway ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:Keir_Starmer a aib:Person ;
+    rdfs:label "Keir Starmer" ;
+    aib:say aib:AI ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:London a aib:Location ;
+    rdfs:label "London" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:MIT_Technology_Reviews a aib:Organization ;
+    rdfs:label "MIT Technology Review’s" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Marvin_Minsky a aib:Person ;
+    rdfs:label "Marvin Minsky" ;
+    aib:publish aib:Perceptrons,
+        aib:Seymour_Papert ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:McKinsey_Studyportals a aib:Organization ;
+    rdfs:label "McKinsey, Studyportals" ;
+    aib:collaborate aib:AI,
+        aib:the_International_Federation_of_Robotics,
+        aib:the_Schwartz_Reisman_Institute ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:Metas a aib:Organization ;
+    rdfs:label "Meta’s" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Mississippi a aib:Location ;
+    rdfs:label "Mississippi" ;
+    aib:related_to aib:AI,
+        aib:Instagram,
+        aib:RB,
+        aib:Spotify,
+        aib:Xania_Monet ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:NBC_News a aib:Organization ;
+    rdfs:label "NBC News" ;
+    aib:show aib:AI,
+        aib:Democrats,
+        aib:Iran ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:NLP a aib:Organization ;
+    rdfs:label "NLP" ;
+    aib:use aib:AI ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Nadella a aib:Person ;
+    rdfs:label "Nadella" ;
+    aib:invest aib:AI,
+        aib:Microsoft,
+        aib:OpenAI ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Nepal a aib:Location ;
+    rdfs:label "Nepal" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Netherlands a aib:Location ;
+    rdfs:label "Netherlands" ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:New_York_University a aib:Organization ;
+    rdfs:label "New York University" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Nick a aib:Location ;
+    rdfs:label "Nick" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:OT a aib:Organization ;
+    rdfs:label "OT" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Old_GreenwichWall_Street_Journal a aib:Organization ;
+    rdfs:label "Old Greenwich[Wall Street Journal" ;
+    aib:upgrade aib:Gemini ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:OpenAI_Codex a aib:Organization ;
+    rdfs:label "OpenAI Codex" ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Photos a aib:Location ;
+    rdfs:label "Photos" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:RT-X a aib:Product ;
+    rdfs:label "RT-X" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Republicans a aib:NationalGroup ;
+    rdfs:label "Republicans" ;
+    aib:be aib:AI,
+        aib:Democrats ;
+    dcterms:source <https://www.pewresearch.org/science/2023/02/15/public-awareness-of-artificial-intelligence-in-everyday-activities/> .
+
+aib:Russ_Altman a aib:Person ;
+    rdfs:label "Russ Altman" ;
+    aib:discuss aib:AI,
+        aib:the_Institute_for_Human-Centered_Artificial_Intelligence ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:Russell_Wald a aib:Person ;
+    rdfs:label "Russell Wald" ;
+    aib:explore aib:AI ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:SAG a aib:Organization ;
+    rdfs:label "SAG" ;
+    aib:related_to aib:last_year ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:SANE a aib:Organization ;
+    rdfs:label "SANE" ;
+    aib:say aib:AI,
+        aib:Chail ;
+    dcterms:source <https://www.bbc.com/news/technology-67012224> .
+
+aib:SO_MUCH_FUN a aib:Organization ;
+    rdfs:label "SO MUCH FUN" ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:Sarah_Friar a aib:Person ;
+    rdfs:label "Sarah Friar" ;
+    aib:tell aib:110_billion,
+        aib:CNBC,
+        aib:February,
+        aib:IPO,
+        aib:an_additional_10_billion ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Sarah_Jeong a aib:Person ;
+    rdfs:label "Sarah Jeong" ;
+    aib:write aib:Instagram,
+        aib:Mosseri ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Sony_Music_Group a aib:Organization ;
+    rdfs:label "Sony Music Group" ;
+    aib:announce aib:AI,
+        aib:Believe,
+        aib:Merlin,
+        aib:Universal_Music_Group,
+        aib:Warner_Music_Group ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Stanford_University a aib:Organization ;
+    rdfs:label "Stanford University" ;
+    aib:related_to aib:the_fall_of_2019 ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:Stein-Erik_Soelberg a aib:Person ;
+    rdfs:label "Stein-Erik Soelberg" ;
+    aib:find aib:56-year-old,
+        aib:earlier_this_month ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Stuart_Russell a aib:Person ;
+    rdfs:label "Stuart Russell" ;
+    aib:related_to aib:AI,
+        aib:Artificial_Intelligence,
+        aib:Peter_Norvig ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Synthesia a aib:Organization ;
+    rdfs:label "Synthesia" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:The_Hague_University_of_Applied_Sciences a aib:Organization ;
+    rdfs:label "The Hague University of Applied Sciences" ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:Thursday a aib:Event ;
+    rdfs:label "Thursday" ;
+    aib:give aib:21-year-old,
+        aib:Chail,
+        aib:nine-year ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:ToxiGen a aib:Organization ;
+    rdfs:label "ToxiGen" ;
+    aib:related_to aib:BBQ,
+        aib:BOLD ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:UC_Berkeley a aib:Organization ;
+    rdfs:label "UC Berkeley" ;
+    aib:release aib:Stanford ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:UI a aib:Organization ;
+    rdfs:label "UI" ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:WWII a aib:Event ;
+    rdfs:label "WWII" ;
+    aib:ask aib:the_Turing_Test ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Waabi a aib:Person ;
+    rdfs:label "Waabi" ;
+    aib:pioneer aib:AI ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Wednesday a aib:Event ;
+    rdfs:label "Wednesday" ;
+    aib:allege aib:Superhuman ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Western a aib:NationalGroup ;
+    rdfs:label "Western" ;
+    aib:say aib:AI,
+        aib:Indonesia,
+        aib:Thailand ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Wired a aib:Location ;
+    rdfs:label "Wired" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:YouTube a aib:Product ;
+    rdfs:label "YouTube" ;
+    aib:launch aib:AI,
+        aib:New_York,
+        aib:Tuesday ;
+    aib:use aib:Gemini,
+        aib:Gmail,
+        aib:Google_Photos ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Youtube a aib:Location ;
+    rdfs:label "Youtube" ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:_Race a schema1:MonetaryAmount ;
+    rdfs:label "$$ Race" ;
+    aib:win aib:2023,
+        aib:AI,
+        aib:the_United_States ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:a_week a aib:Event ;
+    rdfs:label "a week" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:a_year a aib:Event ;
+    rdfs:label "a year" ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:ages_16_to_74 a aib:Event ;
+    rdfs:label "(ages 16 to 74" ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:ages_18_to_29 a aib:Event ;
+    rdfs:label "ages 18 to 29" ;
+    dcterms:source <https://www.pewresearch.org/science/2023/02/15/public-awareness-of-artificial-intelligence-in-everyday-activities/> .
+
+aib:an_estimated_191_million a schema1:MonetaryAmount ;
+    rdfs:label "an estimated $191 million" ;
+    aib:cost aib:OpenAI,
+        aib:an_estimated_78_million ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:annual a aib:Event ;
+    rdfs:label "annual" ;
+    aib:believe aib:2026,
+        aib:AI,
+        aib:April_13th,
+        aib:Stanford_HAI,
+        aib:the_21st_century,
+        aib:the_Global_AI_Vibrancy_Tool ;
+    aib:set aib:AI ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:billion-dollar a schema1:MonetaryAmount ;
+    rdfs:label "billion-dollar" ;
+    aib:announce aib:Disney,
+        aib:OpenAI,
+        aib:Sora,
+        aib:Tuesday,
+        aib:only_a_few_months_ago,
+        aib:the_end_of_2024 ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:decades a aib:Event ;
+    rdfs:label "decades" ;
+    aib:go aib:Generative_AI,
+        aib:Pixar,
+        aib:Roblox ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:each_day a aib:Event ;
+    rdfs:label "each day" ;
+    dcterms:source <https://www.pewresearch.org/science/2023/02/15/public-awareness-of-artificial-intelligence-in-everyday-activities/> .
+
+aib:every_day a aib:Event ;
+    rdfs:label "every day" ;
+    aib:have aib:AI ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:millions_of_dollars a schema1:MonetaryAmount ;
+    rdfs:label "millions of dollars" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:more_than_70_years a aib:Event ;
+    rdfs:label "more than 70 years" ;
+    aib:have aib:AI ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:next_year a aib:Event ;
+    rdfs:label "next year" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:pro-European a aib:NationalGroup ;
+    rdfs:label "pro-European" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:several_years a aib:Event ;
+    rdfs:label "several years" ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:tens_of_billions_of_dollars a schema1:MonetaryAmount ;
+    rdfs:label "tens of billions of dollars" ;
+    aib:incentivize aib:Google,
+        aib:Safari ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:the_British_Psychological_Society a aib:Organization ;
+    rdfs:label "the British Psychological Society" ;
+    dcterms:source <https://www.bbc.com/news/technology-67012224> .
+
+aib:the_Commerce_Department a aib:Organization ;
+    rdfs:label "the Commerce Department" ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:the_Global_AI_Vibrancy_Tool a aib:Organization ;
+    rdfs:label "the Global AI Vibrancy Tool" ;
+    aib:believe aib:2026,
+        aib:AI,
+        aib:April_13th,
+        aib:Stanford_HAI,
+        aib:the_21st_century ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:the_Library_of_Congress a aib:Organization ;
+    rdfs:label "the Library of Congress" ;
+    aib:pass aib:AI,
+        aib:the_Securities_and_Exchange_Commission ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:the_Stanford_Institute_for_Human-Centered_Artificial_Intelligence a aib:Organization ;
+    rdfs:label "the Stanford Institute for Human-Centered Artificial Intelligence" ;
+    aib:have aib:AI ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:the_Think_Newsletter a aib:Organization ;
+    rdfs:label "the Think Newsletter" ;
+    aib:stay aib:weekly ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:the_last_few_days a aib:Event ;
+    rdfs:label "the last few days" ;
+    aib:make aib:AI ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:the_most_recent_year a aib:Event ;
+    rdfs:label "the most recent year" ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:the_previous_month a aib:Event ;
+    rdfs:label "the previous month" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:the_year_before a aib:Event ;
+    rdfs:label "the year before" ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:year a aib:Event ;
+    rdfs:label "year" ;
+    aib:cover aib:AI ;
+    aib:have aib:AI,
+        aib:the_Stanford_Institute_for_Human-Centered_Artificial_Intelligence ;
+    aib:related_to aib:2023,
+        aib:AI ;
+    aib:surpass aib:AI ;
+    aib:tell aib:2023,
+        aib:AI,
+        aib:Spectrum ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:178_trillion a schema1:MonetaryAmount ;
+    rdfs:label "1.78 trillion" ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:2026 a aib:Event ;
+    rdfs:label "2026" ;
+    aib:believe aib:AI,
+        aib:April_13th,
+        aib:Stanford_HAI,
+        aib:the_21st_century ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:3352_billion a schema1:MonetaryAmount ;
+    rdfs:label "$335.2 billion" ;
+    aib:look aib:1037_billion,
+        aib:223_billion,
+        aib:China,
+        aib:the_United_Kingdom ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:35 a aib:Product ;
+    rdfs:label "3.5" ;
+    aib:related_to aib:AI ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:56-year-old a aib:Event ;
+    rdfs:label "56-year-old" ;
+    aib:find aib:earlier_this_month ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:AI_Safety_Institutes a aib:Organization ;
+    rdfs:label "AI Safety Institutes" ;
+    aib:have aib:AI ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:AWS a aib:Organization ;
+    rdfs:label "AWS" ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:About_a_quarter a aib:Event ;
+    rdfs:label "About a quarter" ;
+    aib:think aib:Americans ;
+    dcterms:source <https://www.pewresearch.org/science/2023/02/15/public-awareness-of-artificial-intelligence-in-everyday-activities/> .
+
+aib:Alan_Turing a aib:Person ;
+    rdfs:label "Alan Turing" ;
+    aib:include aib:Intelligence ;
+    aib:publish aib:Computing_Machinery ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:AlphaGo a aib:Organization ;
+    rdfs:label "AlphaGo" ;
+    aib:beat aib:Lee_Sodol ;
+    aib:make aib:AI ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Alphabet a aib:Organization ;
+    rdfs:label "Alphabet" ;
+    aib:have aib:AI,
+        aib:DeepMind,
+        aib:Google ;
+    aib:make aib:AZ,
+        aib:CA,
+        aib:Phoenix,
+        aib:San_Francisco,
+        aib:Uber_Eats ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Amazon_Bedrock a aib:Organization ;
+    rdfs:label "Amazon Bedrock" ;
+    aib:create aib:AI ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Android a aib:Organization ;
+    rdfs:label "Android" ;
+    aib:agree aib:AI ;
+    aib:have aib:Chinese ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Aussies a aib:Organization ;
+    rdfs:label "Aussies" ;
+    aib:say aib:Brits ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:BBC a aib:Organization ;
+    rdfs:label "BBC" ;
+    aib:complain aib:Apple,
+        aib:Brian_Thompson,
+        aib:Luigi_Mangione,
+        aib:UnitedHealthcare ;
+    aib:tell aib:AI,
+        aib:February,
+        aib:UK ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:BOLD a aib:Person ;
+    rdfs:label "BOLD" ;
+    aib:related_to aib:BBQ ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Balenciaga a aib:Location ;
+    rdfs:label "Balenciaga" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Biden a aib:Person ;
+    rdfs:label "Biden" ;
+    aib:come aib:AI,
+        aib:Big_Tech,
+        aib:December,
+        aib:Google_DeepMind,
+        aib:October,
+        aib:OpenAI,
+        aib:some_years,
+        aib:the_AI_revolution,
+        aib:the_European_Unions_AI_Act ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:CNBC a aib:Organization ;
+    rdfs:label "CNBC" ;
+    aib:tell aib:110_billion,
+        aib:February,
+        aib:IPO,
+        aib:an_additional_10_billion ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Chile a aib:Location ;
+    rdfs:label "Chile" ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:Chinese a aib:NationalGroup ;
+    rdfs:label "Chinese" ;
+    aib:related_to aib:AI,
+        aib:DeepSeek ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:December_2021 a aib:Event ;
+    rdfs:label "December 2021" ;
+    dcterms:source <https://www.bbc.com/news/technology-67012224> .
+
+aib:Deep_Blue a aib:Product ;
+    rdfs:label "Deep Blue" ;
+    aib:beat aib:Garry_Kasparov ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Founders_Museum a aib:Organization ;
+    rdfs:label "Founders Museum" ;
+    aib:write aib:AI,
+        aib:American ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:GM a aib:Organization ;
+    rdfs:label "GM" ;
+    aib:related_to aib:Ford ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Gemini_AI_Google a aib:Person ;
+    rdfs:label """Gemini AI
+Google""" ;
+    aib:get aib:Gemini,
+        aib:Google,
+        aib:Personal_Intelligence,
+        aib:Tuesday,
+        aib:US ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Google_Bard a aib:Product ;
+    rdfs:label "Google Bard" ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Google_Photos a aib:Location ;
+    rdfs:label "Google Photos" ;
+    aib:use aib:Gemini,
+        aib:Gmail ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Guardian a aib:Organization ;
+    rdfs:label "Guardian" ;
+    aib:cite aib:the_European_Union,
+        aib:the_United_Kingdom,
+        aib:the_United_States ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:Harrison_Ford a aib:Person ;
+    rdfs:label "Harrison Ford" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:IBM a aib:Organization ;
+    rdfs:label "IBM" ;
+    aib:beat aib:Deep_Blue,
+        aib:Garry_Kasparov ;
+    aib:related_to aib:Brad_Rutter,
+        aib:Ken_Jennings,
+        aib:Watson ;
+    aib:train aib:AI,
+        aib:Claude,
+        aib:OpenAI ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Ian_Rankin a aib:Person ;
+    rdfs:label "Ian Rankin" ;
+    aib:writer aib:Joanne_Harris,
+        aib:Julianne_Moore_-,
+        aib:October_2024 ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:ImageNet a aib:Organization ;
+    rdfs:label "ImageNet" ;
+    aib:say aib:AI,
+        aib:five_or_six_years ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Indonesia a aib:Location ;
+    rdfs:label "Indonesia" ;
+    aib:say aib:AI,
+        aib:Thailand ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:JC_Shaw a aib:Organization ;
+    rdfs:label "J.C. Shaw" ;
+    aib:create aib:AI,
+        aib:Herbert_Simon,
+        aib:the_Logic_Theorist ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:January a aib:Event ;
+    rdfs:label "January" ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:John_McCarthy a aib:Person ;
+    rdfs:label "John McCarthy" ;
+    aib:coin aib:AI,
+        aib:Dartmouth_College ;
+    aib:write aib:AI ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Lee_Sodol a aib:Person ;
+    rdfs:label "Lee Sodol" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Lenovo a aib:Organization ;
+    rdfs:label "Lenovo" ;
+    aib:make aib:Tesla ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Luigi_Mangione a aib:Person ;
+    rdfs:label "Luigi Mangione" ;
+    aib:complain aib:Brian_Thompson,
+        aib:UnitedHealthcare ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:ML a aib:Organization ;
+    rdfs:label "ML" ;
+    aib:related_to aib:AI ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Minwa a aib:Organization ;
+    rdfs:label "Minwa" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Nick_Turley a aib:Person ;
+    rdfs:label "Nick Turley" ;
+    aib:say aib:OpenAI,
+        aib:Tuesday ;
+    aib:talk aib:OpenAI ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Nilay_Patel a aib:Person ;
+    rdfs:label "Nilay Patel" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:OpenAIs_GPT-3 a aib:Organization ;
+    rdfs:label "OpenAI’s GPT-3" ;
+    aib:related_to aib:GPT-4,
+        aib:Shakespearean ;
+    aib:tell aib:AI ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:Peter_Norvig a aib:Person ;
+    rdfs:label "Peter Norvig" ;
+    aib:related_to aib:AI,
+        aib:Artificial_Intelligence ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Photoshop a aib:Product ;
+    rdfs:label "Photoshop" ;
+    aib:related_to aib:AI,
+        aib:Discord ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:Pixar a aib:Organization,
+        aib:Person ;
+    rdfs:label "Pixar" ;
+    aib:go aib:Roblox ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/>,
+        <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:RB a aib:Organization ;
+    rdfs:label "R&B" ;
+    aib:related_to aib:AI,
+        aib:Instagram,
+        aib:Spotify,
+        aib:Xania_Monet ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Research a aib:Organization ;
+    rdfs:label "Research" ;
+    aib:note aib:2025,
+        aib:AI,
+        aib:AI_Index_Steering_Committee ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:Runway a aib:Organization ;
+    rdfs:label "Runway" ;
+    aib:be aib:Mem ;
+    aib:drop aib:Stable_Diffusion,
+        aib:every_few_months ;
+    aib:set aib:AI,
+        aib:annual ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:Search_Gemini a aib:Organization ;
+    rdfs:label "Search, Gemini" ;
+    aib:use aib:Chrome,
+        aib:Gemini ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Seymour_Papert a aib:Person ;
+    rdfs:label "Seymour Papert" ;
+    aib:publish aib:Perceptrons ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Telisha a aib:Organization ;
+    rdfs:label "Telisha" ;
+    aib:report aib:3_million,
+        aib:Billboard,
+        aib:Nikki ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Turing a aib:Organization ;
+    rdfs:label "Turing" ;
+    aib:coin aib:AI,
+        aib:Turing ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Uber_Eats a aib:Person ;
+    rdfs:label "Uber Eats" ;
+    aib:make aib:AZ,
+        aib:CA,
+        aib:Phoenix,
+        aib:San_Francisco ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Universal_Music_Group a aib:Organization ;
+    rdfs:label "Universal Music Group" ;
+    aib:announce aib:AI,
+        aib:Believe,
+        aib:Merlin,
+        aib:Warner_Music_Group ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Watson a aib:Person ;
+    rdfs:label "Watson®" ;
+    aib:related_to aib:Brad_Rutter,
+        aib:Ken_Jennings ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Yann_LeCun a aib:Person ;
+    rdfs:label "Yann LeCun" ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:at_least_500_million a schema1:MonetaryAmount ;
+    rdfs:label "at least $500 million" ;
+    aib:do aib:AI ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:earlier_this_year a aib:Event ;
+    rdfs:label "earlier this year" ;
+    aib:s aib:AI ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:every_few_months a aib:Event ;
+    rdfs:label "every few months" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:last_years_Gato a aib:Event ;
+    rdfs:label "last year’s Gato" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:six-month-old a aib:Event ;
+    rdfs:label "six-month-old" ;
+    aib:have aib:Pixel ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:the_Schwartz_Reisman_Institute a aib:Organization ;
+    rdfs:label "the Schwartz Reisman Institute" ;
+    aib:collaborate aib:AI,
+        aib:the_International_Federation_of_Robotics ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:the_Turing_Test a aib:Organization ;
+    rdfs:label "the \"Turing Test" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:the_University_of_Surrey a aib:Organization ;
+    rdfs:label "the University of Surrey" ;
+    aib:carry aib:Replika ;
+    aib:tell aib:BBC ;
+    dcterms:source <https://www.bbc.com/news/technology-67012224> .
+
+aib:the_fall_of_2019 a aib:Event ;
+    rdfs:label "the fall of 2019" ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:the_last_five_years a aib:Event ;
+    rdfs:label "the last five years" ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:the_next_few_years a aib:Event ;
+    rdfs:label "the next few years" ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:this_week a aib:Event ;
+    rdfs:label "this week" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:this_year a aib:Event ;
+    rdfs:label "this year" ;
+    aib:look aib:MIT_Technology_Reviews ;
+    aib:related_to aib:2023,
+        aib:AI,
+        aib:a_really_big_year ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:today a aib:Event ;
+    rdfs:label "today" ;
+    aib:announce aib:AI,
+        aib:Believe,
+        aib:Merlin,
+        aib:Sony_Music_Group,
+        aib:Universal_Music_Group,
+        aib:Warner_Music_Group ;
+    aib:demonstrate aib:AI ;
+    aib:go aib:several_years ;
+    aib:provide aib:3D ;
+    aib:relatedTo aib:930,
+        aib:US ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:1_billion a schema1:MonetaryAmount ;
+    rdfs:label "$1 billion" ;
+    aib:license aib:AI,
+        aib:Disney_Plus,
+        aib:OpenAI,
+        aib:Sora ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:2017 a aib:Event ;
+    rdfs:label "2017" ;
+    aib:cost aib:LLM,
+        aib:Transformer,
+        aib:around_900 ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:2019 a aib:Event ;
+    rdfs:label "2019" ;
+    aib:lead aib:China,
+        aib:Google,
+        aib:OpenAI,
+        aib:UK,
+        aib:US ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:2024 a aib:Event ;
+    rdfs:label "2024" ;
+    aib:appear aib:2023,
+        aib:AI,
+        aib:ARIA_Is_Searching_For_Better_AI_Tech,
+        aib:Bird_Calls_-_IEEE_Spectrum,
+        aib:Foundation_Model_Decodes_Whale,
+        aib:Google,
+        aib:Humming_-_IEEE_Spectrum,
+        aib:IEEE_Spectrum,
+        aib:UK ;
+    aib:become aib:AI ;
+    aib:focus aib:AI ;
+    aib:related_to aib:AI ;
+    aib:shape aib:years ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:930 a schema1:MonetaryAmount ;
+    rdfs:label "930" ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:AGI a aib:Organization ;
+    rdfs:label "AGI" ;
+    aib:related_to aib:AI ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:AI_Index_Steering_Committee a aib:Organization ;
+    rdfs:label "AI Index Steering Committee" ;
+    aib:note aib:2025,
+        aib:AI ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:Amazon_Alexa a aib:Organization ;
+    rdfs:label "Amazon Alexa" ;
+    aib:related_to aib:Siri ;
+    aib:use aib:AI,
+        aib:Amazon_Translate,
+        aib:Apple,
+        aib:Copilot,
+        aib:Excel,
+        aib:Google,
+        aib:Google_Translate,
+        aib:LLM,
+        aib:Microsoft_365,
+        aib:Microsoft_Copilot,
+        aib:Microsoft_Translator,
+        aib:Perplexity,
+        aib:Pixel,
+        aib:Teams ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:American a aib:NationalGroup ;
+    rdfs:label "American" ;
+    aib:express aib:AI,
+        aib:daily ;
+    aib:rally aib:AI ;
+    aib:write aib:AI ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Apple a aib:Organization ;
+    rdfs:label "Apple" ;
+    aib:complain aib:Brian_Thompson,
+        aib:Luigi_Mangione,
+        aib:UnitedHealthcare ;
+    aib:halt aib:AI,
+        aib:January ;
+    aib:incentivize aib:Google,
+        aib:Safari,
+        aib:tens_of_billions_of_dollars ;
+    aib:use aib:AI,
+        aib:Amazon_Translate,
+        aib:Copilot,
+        aib:Excel,
+        aib:Google,
+        aib:Google_Translate,
+        aib:LLM,
+        aib:Microsoft_365,
+        aib:Microsoft_Copilot,
+        aib:Microsoft_Translator,
+        aib:Perplexity,
+        aib:Pixel,
+        aib:Teams ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:April_13th a aib:Event ;
+    rdfs:label "April 13th" ;
+    aib:believe aib:AI,
+        aib:Stanford_HAI,
+        aib:the_21st_century ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:Artificial_Intelligence a aib:Organization ;
+    rdfs:label "Artificial Intelligence" ;
+    aib:related_to aib:AI ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:BBQ a aib:Organization ;
+    rdfs:label "BBQ" ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Bard a aib:Organization,
+        aib:Person ;
+    rdfs:label "Bard" ;
+    aib:switch aib:Gemini,
+        aib:LLM ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai>,
+        <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Bing a aib:Person ;
+    rdfs:label "Bing" ;
+    aib:remember aib:Bard ;
+    aib:use aib:Microsoft_Designer ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Brits a aib:NationalGroup ;
+    rdfs:label "Brits" ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:COVID-19 a aib:Organization ;
+    rdfs:label "COVID-19" ;
+    dcterms:source <https://www.pewresearch.org/science/2023/02/15/public-awareness-of-artificial-intelligence-in-everyday-activities/> .
+
+aib:Chrome a aib:Location ;
+    rdfs:label "Chrome" ;
+    aib:use aib:Gemini ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Computing_Machinery a aib:Person ;
+    rdfs:label "Computing Machinery" ;
+    aib:include aib:Intelligence ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Dartmouth_College a aib:Organization ;
+    rdfs:label "Dartmouth College" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Dec_12-18_2022 a aib:Event ;
+    rdfs:label "Dec. 12-18, 2022" ;
+    aib:find aib:AI,
+        aib:Americans ;
+    dcterms:source <https://www.pewresearch.org/science/2023/02/15/public-awareness-of-artificial-intelligence-in-everyday-activities/> .
+
+aib:Discord a aib:Organization ;
+    rdfs:label "Discord" ;
+    aib:related_to aib:AI ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:Ford a aib:Organization ;
+    rdfs:label "Ford" ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Garry_Kasparov a aib:Person ;
+    rdfs:label "Garry Kasparov" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Gmail a aib:Person ;
+    rdfs:label "Gmail" ;
+    aib:use aib:Gemini ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Herbert_Simon a aib:Person ;
+    rdfs:label "Herbert Simon" ;
+    aib:create aib:AI,
+        aib:the_Logic_Theorist ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Humming_-_IEEE_Spectrum a aib:Organization ;
+    rdfs:label "Humming - IEEE Spectrum" ;
+    aib:appear aib:AI,
+        aib:ARIA_Is_Searching_For_Better_AI_Tech,
+        aib:Bird_Calls_-_IEEE_Spectrum,
+        aib:Foundation_Model_Decodes_Whale,
+        aib:Google,
+        aib:IEEE_Spectrum,
+        aib:UK ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Joanne_Harris a aib:Person ;
+    rdfs:label "Joanne Harris" ;
+    aib:writer aib:Julianne_Moore_-,
+        aib:October_2024 ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:Ken_Jennings a aib:Person ;
+    rdfs:label "Ken Jennings" ;
+    aib:related_to aib:Brad_Rutter ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Los_Angeles a aib:Location ;
+    rdfs:label "Los Angeles" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Mem a aib:Person ;
+    rdfs:label "Mem" ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:Microsoft_Designer a aib:Organization ;
+    rdfs:label "Microsoft Designer" ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Mosseri a aib:NationalGroup,
+        aib:Organization ;
+    rdfs:label "Mosseri" ;
+    aib:write aib:Instagram,
+        aib:Mosseri ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Nikki a aib:Organization ;
+    rdfs:label "Nikki" ;
+    aib:report aib:3_million,
+        aib:Billboard ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:October a aib:Event ;
+    rdfs:label "October" ;
+    aib:come aib:AI,
+        aib:Big_Tech,
+        aib:December,
+        aib:Google_DeepMind,
+        aib:OpenAI,
+        aib:some_years,
+        aib:the_AI_revolution,
+        aib:the_European_Unions_AI_Act ;
+    aib:put aib:RT-X ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Perceptrons a aib:Event ;
+    rdfs:label "Perceptrons" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Roblox a aib:Person ;
+    rdfs:label "Roblox" ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:Safari a aib:Person ;
+    rdfs:label "Safari" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:San_Francisco a aib:Location ;
+    rdfs:label "San Francisco" ;
+    aib:make aib:AZ,
+        aib:CA,
+        aib:Phoenix ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Siri a aib:Location,
+        aib:Person ;
+    rdfs:label "Siri" ;
+    aib:related_to aib:Alexa,
+        aib:Google ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/>,
+        <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Spectrum a aib:Person ;
+    rdfs:label "Spectrum" ;
+    aib:related_to aib:AI ;
+    aib:tell aib:2023,
+        aib:AI ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Stable_Diffusion a aib:Organization,
+        aib:Product ;
+    rdfs:label "Stable Diffusion" ;
+    aib:drop aib:every_few_months ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/>,
+        <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Stanford a aib:Organization ;
+    rdfs:label "Stanford" ;
+    aib:note aib:2025,
+        aib:AI,
+        aib:AI_Index_Steering_Committee,
+        aib:Research ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:Super_Bowl a aib:Event ;
+    rdfs:label "Super Bowl" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Thailand a aib:Location ;
+    rdfs:label "Thailand" ;
+    aib:say aib:AI ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Transformer a aib:Organization ;
+    rdfs:label "Transformer" ;
+    aib:cost aib:LLM,
+        aib:around_900 ;
+    aib:related_to aib:2020,
+        aib:GPT-3 ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:Trump a aib:Person ;
+    rdfs:label "Trump" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:UnitedHealthcare a aib:Organization ;
+    rdfs:label "UnitedHealthcare" ;
+    aib:complain aib:Brian_Thompson ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:Warner_Music_Group a aib:Organization ;
+    rdfs:label "Warner Music Group" ;
+    aib:announce aib:AI,
+        aib:Believe,
+        aib:Merlin ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Xania_Monet a aib:Person ;
+    rdfs:label "Xania Monet" ;
+    aib:related_to aib:AI,
+        aib:Instagram,
+        aib:Spotify ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:a_really_big_year a aib:Event ;
+    rdfs:label "a really big year" ;
+    aib:related_to aib:2023 ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:an_additional_10_billion a schema1:MonetaryAmount ;
+    rdfs:label "an additional $10 billion" ;
+    aib:tell aib:110_billion,
+        aib:February,
+        aib:IPO ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:an_estimated_78_million a schema1:MonetaryAmount ;
+    rdfs:label "an estimated $78 million" ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:around_900 a schema1:MonetaryAmount ;
+    rdfs:label "around $900" ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:earlier_this_month a aib:Event ;
+    rdfs:label "earlier this month" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:five_or_six_years a aib:Event ;
+    rdfs:label "five or six years" ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:nine-year a aib:Event ;
+    rdfs:label "nine-year" ;
+    dcterms:source <https://www.bbc.com/news/technology-67012224> .
+
+aib:the_Institute_for_Human-Centered_Artificial_Intelligence a aib:Organization ;
+    rdfs:label "the Institute for Human-Centered Artificial Intelligence" ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:the_International_Federation_of_Robotics a aib:Organization ;
+    rdfs:label "the International Federation of Robotics" ;
+    aib:collaborate aib:AI ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:the_Securities_and_Exchange_Commission a aib:Organization ;
+    rdfs:label "the Securities and Exchange Commission" ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:trillions_of_dollars a schema1:MonetaryAmount ;
+    rdfs:label "trillions of dollars" ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:weekly a aib:Event ;
+    rdfs:label "weekly" ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:1037_billion a schema1:MonetaryAmount ;
+    rdfs:label "$103.7 billion" ;
+    aib:look aib:223_billion,
+        aib:the_United_Kingdom ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:2020 a aib:Event ;
+    rdfs:label "2020" ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:2021 a aib:Event ;
+    rdfs:label "2021" ;
+    aib:gain aib:AI ;
+    aib:read aib:2022,
+        aib:2023 ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:3_million a schema1:MonetaryAmount ;
+    rdfs:label "$3 million" ;
+    aib:report aib:Billboard ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Alexa a aib:Organization ;
+    rdfs:label "Alexa" ;
+    aib:related_to aib:AI,
+        aib:Claude,
+        aib:Copilot,
+        aib:Google,
+        aib:Microsoft ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:Brad_Rutter a aib:Person ;
+    rdfs:label "Brad Rutter" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Brian_Thompson a aib:Person ;
+    rdfs:label "Brian Thompson" ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:CA a aib:Organization ;
+    rdfs:label "CA" ;
+    aib:make aib:AZ,
+        aib:Phoenix ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:DeepSeek a aib:Product ;
+    rdfs:label "DeepSeek" ;
+    aib:guide aib:Gemini,
+        aib:Reuters ;
+    aib:related_to aib:AI ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:GPT-3 a aib:Organization ;
+    rdfs:label "GPT-3" ;
+    aib:build aib:Stable_Diffusion ;
+    aib:related_to aib:2020 ;
+    aib:spit aib:AI ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:Generative_AI a aib:Person ;
+    rdfs:label "Generative AI" ;
+    aib:be aib:Jasper,
+        aib:Mem,
+        aib:Runway ;
+    aib:build aib:GPT-3,
+        aib:Stable_Diffusion ;
+    aib:go aib:Pixar,
+        aib:Roblox ;
+    aib:have aib:AI,
+        aib:trillions_of_dollars ;
+    aib:think aib:UI ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:IPO a aib:Organization ;
+    rdfs:label "IPO" ;
+    aib:tell aib:110_billion,
+        aib:February ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Intelligence a aib:Organization ;
+    rdfs:label "Intelligence" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:Iran a aib:Location ;
+    rdfs:label "Iran" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Julianne_Moore_- a aib:Person ;
+    rdfs:label "Julianne Moore -" ;
+    aib:writer aib:October_2024 ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:Merlin a aib:NationalGroup ;
+    rdfs:label "Merlin" ;
+    aib:announce aib:AI,
+        aib:Believe ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:New_York a aib:Location ;
+    rdfs:label "New York" ;
+    aib:have aib:Los_Angeles ;
+    aib:launch aib:AI ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Sam_Altman a aib:Person ;
+    rdfs:label "Sam Altman" ;
+    aib:lead aib:Nick ;
+    aib:relatedTo aib:trillions_of_dollars ;
+    aib:report aib:API,
+        aib:Sora,
+        aib:TikTok ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Sarai a aib:Location,
+        aib:Person ;
+    rdfs:label "Sarai" ;
+    aib:appear aib:Chail ;
+    aib:chat aib:December_2021 ;
+    aib:form aib:Chail ;
+    aib:hear aib:Replika ;
+    dcterms:source <https://www.bbc.com/news/technology-67012224> .
+
+aib:Shakespearean a aib:NationalGroup ;
+    rdfs:label "Shakespearean" ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Stanford_HAI a aib:Organization,
+        aib:Person ;
+    rdfs:label "Stanford HAI" ;
+    aib:believe aib:AI,
+        aib:the_21st_century ;
+    aib:make aib:AI ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:Superhuman a aib:Person ;
+    rdfs:label "Superhuman" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:TikTok a aib:Organization ;
+    rdfs:label "TikTok" ;
+    aib:report aib:API,
+        aib:Sora ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/> .
+
+aib:last_year a aib:Event ;
+    rdfs:label "last year" ;
+    aib:go aib:AI ;
+    aib:steer aib:Super_Bowl ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:the_European_Unions_AI_Act a aib:Organization ;
+    rdfs:label "the European Union’s AI Act" ;
+    aib:come aib:AI,
+        aib:Big_Tech,
+        aib:December,
+        aib:Google_DeepMind,
+        aib:OpenAI,
+        aib:some_years,
+        aib:the_AI_revolution ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:the_Logic_Theorist a aib:Organization ;
+    rdfs:label "the Logic Theorist" ;
+    aib:create aib:AI ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:110_billion a schema1:MonetaryAmount ;
+    rdfs:label "$110 billion" ;
+    aib:tell aib:February ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:ARIA_Is_Searching_For_Better_AI_Tech a aib:Organization ;
+    rdfs:label "ARIA Is Searching For Better AI Tech" ;
+    aib:appear aib:AI,
+        aib:Bird_Calls_-_IEEE_Spectrum,
+        aib:Foundation_Model_Decodes_Whale,
+        aib:Google,
+        aib:IEEE_Spectrum ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Believe a aib:Person ;
+    rdfs:label "Believe" ;
+    aib:announce aib:AI ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Billboard a aib:Person ;
+    rdfs:label "Billboard" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Democrats a aib:NationalGroup ;
+    rdfs:label "Democrats" ;
+    aib:be aib:AI ;
+    aib:show aib:Iran ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:GPT-4 a aib:Person ;
+    rdfs:label "GPT-4" ;
+    aib:consider aib:178_trillion ;
+    aib:have aib:Microsoft_Copilot ;
+    aib:related_to aib:Gemini,
+        aib:Shakespearean ;
+    aib:use aib:Bing,
+        aib:Copilot,
+        aib:Microsoft_Designer ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Maslej a aib:Organization,
+        aib:Person ;
+    rdfs:label "Maslej" ;
+    aib:note aib:AI,
+        aib:the_United_States ;
+    aib:outperform aib:AI ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Meta_AI a aib:Organization,
+        aib:Person ;
+    rdfs:label "Meta AI" ;
+    aib:guide aib:Claude,
+        aib:DeepSeek,
+        aib:Gemini,
+        aib:Reuters ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:October_2024 a aib:Event ;
+    rdfs:label "October 2024" ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:Personal_Intelligence a aib:Organization ;
+    rdfs:label "Personal Intelligence" ;
+    aib:get aib:Gemini,
+        aib:Google ;
+    aib:use aib:Chrome,
+        aib:Gemini,
+        aib:Gmail,
+        aib:Google_Photos,
+        aib:Search_Gemini,
+        aib:YouTube ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Phoenix a aib:Location ;
+    rdfs:label "Phoenix" ;
+    aib:make aib:AZ ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Reuters a aib:Organization ;
+    rdfs:label "Reuters" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Spotify a aib:Location,
+        aib:Organization ;
+    rdfs:label "Spotify" ;
+    aib:detail aib:AI ;
+    aib:related_to aib:AI,
+        aib:Instagram ;
+    aib:spotify aib:AI,
+        aib:Deezer ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333>,
+        <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Tesla a aib:Organization ;
+    rdfs:label "Tesla" ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence> .
+
+aib:the_European_Union a aib:Organization ;
+    rdfs:label "the European Union" ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:the_end_of_2024 a aib:Event ;
+    rdfs:label "the end of 2024" ;
+    aib:announce aib:Disney,
+        aib:only_a_few_months_ago ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:years a aib:Event ;
+    rdfs:label "years" ;
+    aib:related_to aib:AI ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:223_billion a schema1:MonetaryAmount ;
+    rdfs:label "$22.3 billion" ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts> .
+
+aib:AZ a aib:Organization ;
+    rdfs:label "AZ" ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Big_Tech a aib:Organization ;
+    rdfs:label "Big Tech" ;
+    aib:come aib:AI,
+        aib:Google_DeepMind,
+        aib:OpenAI,
+        aib:some_years,
+        aib:the_AI_revolution ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Chail a aib:Person ;
+    rdfs:label "Chail" ;
+    aib:chat aib:December_2021,
+        aib:Sarai ;
+    aib:give aib:nine-year ;
+    aib:hear aib:Christmas_Day_2021,
+        aib:Replika,
+        aib:Sarai ;
+    aib:say aib:AI ;
+    aib:tell aib:Sarai ;
+    dcterms:source <https://www.bbc.com/news/technology-67012224> .
+
+aib:Microsoft a aib:Organization ;
+    rdfs:label "Microsoft" ;
+    aib:invest aib:AI,
+        aib:Microsoft,
+        aib:Nadella,
+        aib:OpenAI ;
+    aib:make aib:AI,
+        aib:Copilot,
+        aib:Gemini,
+        aib:Google,
+        aib:OpenAI ;
+    aib:provide aib:AI,
+        aib:Microsoft_Copilot ;
+    aib:related_to aib:Claude,
+        aib:Copilot ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Perplexity a aib:Organization ;
+    rdfs:label "Perplexity" ;
+    aib:use aib:AI,
+        aib:Amazon_Translate,
+        aib:Excel,
+        aib:Google_Translate,
+        aib:LLM,
+        aib:Microsoft_365,
+        aib:Microsoft_Copilot,
+        aib:Microsoft_Translator,
+        aib:Teams ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Replika a aib:Person ;
+    rdfs:label "Replika" ;
+    aib:let aib:AI ;
+    dcterms:source <https://www.bbc.com/news/technology-67012224> .
+
+aib:only_a_few_months_ago a aib:Event ;
+    rdfs:label "only a few months ago" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:the_21st_century a aib:Event ;
+    rdfs:label "the 21st century" ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:2025 a aib:Event ;
+    rdfs:label "2025" ;
+    aib:note aib:AI ;
+    aib:provide aib:AI ;
+    aib:say aib:years ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:API a aib:Organization ;
+    rdfs:label "API" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:December a aib:Event ;
+    rdfs:label "December" ;
+    aib:come aib:AI,
+        aib:Big_Tech,
+        aib:Google_DeepMind,
+        aib:OpenAI,
+        aib:some_years,
+        aib:the_AI_revolution ;
+    aib:license aib:1_billion,
+        aib:AI,
+        aib:Disney_Plus,
+        aib:OpenAI,
+        aib:Sora ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:DeepMind a aib:Person,
+        aib:Product ;
+    rdfs:label "DeepMind" ;
+    aib:create aib:AlphaFold ;
+    aib:have aib:Google ;
+    aib:related_to aib:AGI,
+        aib:AI ;
+    aib:release aib:last_years_Gato ;
+    dcterms:source <https://www.ibm.com/think/topics/artificial-intelligence>,
+        <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Disney_Plus a aib:Organization ;
+    rdfs:label "Disney Plus" ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:February a aib:Event ;
+    rdfs:label "February" ;
+    aib:tell aib:AI,
+        aib:UK ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333> .
+
+aib:Foundation_Model_Decodes_Whale a aib:Organization ;
+    rdfs:label "Foundation Model Decodes Whale" ;
+    aib:appear aib:AI,
+        aib:Bird_Calls_-_IEEE_Spectrum,
+        aib:IEEE_Spectrum ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Google_Translate a aib:Organization ;
+    rdfs:label "Google Translate" ;
+    aib:use aib:AI,
+        aib:Amazon_Translate,
+        aib:Excel,
+        aib:LLM,
+        aib:Microsoft_365,
+        aib:Microsoft_Copilot,
+        aib:Microsoft_Translator,
+        aib:Teams ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Pixel a aib:Organization,
+        aib:Person ;
+    rdfs:label "Pixel" ;
+    aib:use aib:AI,
+        aib:Amazon_Translate,
+        aib:Copilot,
+        aib:Excel,
+        aib:Google_Translate,
+        aib:LLM,
+        aib:Microsoft_365,
+        aib:Microsoft_Copilot,
+        aib:Microsoft_Translator,
+        aib:Perplexity,
+        aib:Teams ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Bird_Calls_-_IEEE_Spectrum a aib:Person ;
+    rdfs:label "Bird Calls - IEEE Spectrum" ;
+    aib:appear aib:AI,
+        aib:IEEE_Spectrum ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:Disney a aib:Organization ;
+    rdfs:label "Disney" ;
+    aib:announce aib:Disney,
+        aib:OpenAI,
+        aib:Sora,
+        aib:Tuesday,
+        aib:only_a_few_months_ago,
+        aib:the_end_of_2024 ;
+    aib:explore aib:AI ;
+    aib:license aib:1_billion,
+        aib:AI,
+        aib:December,
+        aib:Disney_Plus,
+        aib:OpenAI,
+        aib:Sora ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Google_DeepMind a aib:Organization ;
+    rdfs:label "Google DeepMind" ;
+    aib:come aib:AI,
+        aib:some_years,
+        aib:the_AI_revolution ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Instagram a aib:Organization ;
+    rdfs:label "Instagram" ;
+    aib:related_to aib:AI ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Microsoft_Translator a aib:Organization ;
+    rdfs:label "Microsoft Translator" ;
+    aib:use aib:AI,
+        aib:Amazon_Translate,
+        aib:Excel,
+        aib:LLM,
+        aib:Microsoft_365,
+        aib:Microsoft_Copilot,
+        aib:Teams ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:2022 a aib:Event ;
+    rdfs:label "2022",
+        "2022+)" ;
+    aib:attract aib:2019 ;
+    aib:read aib:2023 ;
+    aib:related_to aib:2021 ;
+    aib:say aib:2017 ;
+    aib:take aib:the_most_recent_year ;
+    dcterms:source <https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/>,
+        <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Amazon_Translate a aib:Organization ;
+    rdfs:label "Amazon Translate" ;
+    aib:use aib:AI,
+        aib:Excel,
+        aib:LLM,
+        aib:Microsoft_365,
+        aib:Microsoft_Copilot,
+        aib:Teams ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Claude a aib:Organization,
+        aib:Person ;
+    rdfs:label "Claude" ;
+    aib:guide aib:DeepSeek,
+        aib:Gemini,
+        aib:Reuters ;
+    aib:train aib:OpenAI ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai>,
+        <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Tuesday a aib:Event ;
+    rdfs:label "Tuesday" ;
+    aib:announce aib:Disney,
+        aib:OpenAI,
+        aib:Sora,
+        aib:only_a_few_months_ago,
+        aib:the_end_of_2024 ;
+    aib:get aib:Gemini,
+        aib:Google,
+        aib:Personal_Intelligence,
+        aib:US ;
+    aib:launch aib:AI,
+        aib:New_York ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:UK a aib:Location ;
+    rdfs:label "UK" ;
+    aib:appear aib:AI,
+        aib:ARIA_Is_Searching_For_Better_AI_Tech,
+        aib:Bird_Calls_-_IEEE_Spectrum,
+        aib:Foundation_Model_Decodes_Whale,
+        aib:Google,
+        aib:IEEE_Spectrum ;
+    aib:clamp aib:AI ;
+    aib:have aib:AI,
+        aib:AI_Safety_Institutes,
+        aib:US ;
+    aib:make aib:Synthesia ;
+    aib:say aib:AI,
+        aib:Keir_Starmer ;
+    aib:tell aib:AI ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:the_AI_revolution a aib:Event ;
+    rdfs:label "the AI revolution" ;
+    aib:come aib:AI,
+        aib:some_years ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:China a aib:Location ;
+    rdfs:label "China" ;
+    aib:lead aib:UK ;
+    aib:look aib:1037_billion,
+        aib:223_billion,
+        aib:the_United_Kingdom ;
+    aib:note aib:AI ;
+    aib:related_to aib:the_United_Kingdom ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:IEEE_Spectrum a aib:Organization ;
+    rdfs:label "IEEE Spectrum" ;
+    aib:appear aib:AI ;
+    aib:read aib:2021,
+        aib:2022,
+        aib:2023,
+        aib:AI ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:some_years a aib:Event ;
+    rdfs:label "some years" ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Microsoft_365 a aib:Organization ;
+    rdfs:label "Microsoft 365" ;
+    aib:use aib:AI,
+        aib:Excel,
+        aib:LLM,
+        aib:Teams ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Copilot a aib:Location,
+        aib:Organization ;
+    rdfs:label "Copilot" ;
+    aib:make aib:AI,
+        aib:Gemini,
+        aib:Google,
+        aib:OpenAI ;
+    aib:related_to aib:Claude ;
+    aib:use aib:AI,
+        aib:Amazon_Translate,
+        aib:Bing,
+        aib:Excel,
+        aib:Google_Translate,
+        aib:LLM,
+        aib:Microsoft_365,
+        aib:Microsoft_Copilot,
+        aib:Microsoft_Designer,
+        aib:Microsoft_Translator,
+        aib:Perplexity,
+        aib:Teams ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai>,
+        <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:Microsoft_Copilot a aib:Organization ;
+    rdfs:label "Microsoft Copilot" ;
+    aib:provide aib:AI ;
+    aib:related_to aib:Gemini ;
+    aib:use aib:AI,
+        aib:Excel,
+        aib:LLM,
+        aib:Microsoft_365,
+        aib:Teams ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:US a aib:Location ;
+    rdfs:label "U.S.",
+        "US" ;
+    aib:agree aib:AI,
+        aib:Android ;
+    aib:cheer aib:AI,
+        aib:Donald_Trump ;
+    aib:find aib:AI,
+        aib:Americans,
+        aib:Dec_12-18_2022 ;
+    aib:get aib:Gemini,
+        aib:Gemini_AI_Google,
+        aib:Google,
+        aib:Personal_Intelligence,
+        aib:Tuesday,
+        aib:US ;
+    aib:have aib:AI,
+        aib:AI_Safety_Institutes ;
+    aib:identify aib:AI ;
+    aib:lead aib:China,
+        aib:UK ;
+    aib:relatedTo aib:930 ;
+    aib:related_to aib:AI,
+        aib:China,
+        aib:the_United_Kingdom ;
+    aib:show aib:AI,
+        aib:daily ;
+    aib:survey aib:Dec_12-18_2022 ;
+    aib:use aib:Chrome,
+        aib:Gemini,
+        aib:Personal_Intelligence,
+        aib:Search_Gemini ;
+    aib:win aib:2023,
+        aib:AI,
+        aib:_Race,
+        aib:the_United_States ;
+    dcterms:source <https://hai.stanford.edu/news/ai-index-state-ai-13-charts>,
+        <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:the_United_States a aib:Location ;
+    rdfs:label "the United States" ;
+    aib:cite aib:the_European_Union,
+        aib:the_United_Kingdom ;
+    aib:look aib:1037_billion,
+        aib:223_billion,
+        aib:3352_billion,
+        aib:China,
+        aib:the_United_Kingdom ;
+    aib:note aib:AI ;
+    aib:outpace aib:2023 ;
+    aib:win aib:AI ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:Excel a aib:Product ;
+    rdfs:label "Excel" ;
+    aib:use aib:Teams ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:daily a aib:Event ;
+    rdfs:label "daily" ;
+    aib:become aib:Americans ;
+    aib:expect aib:the_next_few_years ;
+    aib:related_to aib:Americans ;
+    aib:say aib:AI,
+        aib:Americans,
+        aib:COVID-19 ;
+    dcterms:source <https://spectrum.ieee.org/ai-index-2024> .
+
+aib:the_United_Kingdom a aib:Location ;
+    rdfs:label "the United Kingdom" ;
+    aib:cite aib:the_European_Union ;
+    aib:look aib:223_billion ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+
+aib:Americans a aib:NationalGroup ;
+    rdfs:label "Americans" ;
+    aib:answer aib:AI ;
+    aib:conduct aib:daily ;
+    aib:estimate aib:AI ;
+    aib:find aib:AI,
+        aib:daily ;
+    aib:have aib:AI ;
+    aib:related_to aib:AI,
+        aib:Americans,
+        aib:daily ;
+    aib:say aib:AI,
+        aib:COVID-19,
+        aib:daily ;
+    aib:think aib:AI,
+        aib:About_a_quarter,
+        aib:Americans ;
+    dcterms:source <https://www.pewresearch.org/science/2023/02/15/public-awareness-of-artificial-intelligence-in-everyday-activities/> .
+
+aib:Sora a aib:Person ;
+    rdfs:label "Sora" ;
+    aib:announce aib:Disney,
+        aib:OpenAI,
+        aib:Sora,
+        aib:Tuesday,
+        aib:billion-dollar,
+        aib:only_a_few_months_ago,
+        aib:the_end_of_2024 ;
+    aib:license aib:AI,
+        aib:Disney_Plus ;
+    aib:report aib:API ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:Teams a aib:Organization ;
+    rdfs:label "Teams" ;
+    dcterms:source <https://www.zdnet.com/article/what-is-ai-heres-everything-you-need-to-know-about-artificial-intelligence/> .
+
+aib:LLM a aib:Organization ;
+    rdfs:label "LLM" ;
+    aib:cost aib:around_900 ;
+    aib:switch aib:Bard,
+        aib:Gemini,
+        aib:LLM ;
+    aib:use aib:AI,
+        aib:Excel,
+        aib:Teams ;
+    dcterms:source <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:2023 a aib:Event ;
+    rdfs:label "2023" ;
+    aib:appear aib:AI,
+        aib:ARIA_Is_Searching_For_Better_AI_Tech,
+        aib:Bird_Calls_-_IEEE_Spectrum,
+        aib:Foundation_Model_Decodes_Whale,
+        aib:Google,
+        aib:Humming_-_IEEE_Spectrum,
+        aib:IEEE_Spectrum,
+        aib:UK ;
+    aib:attract aib:2019,
+        aib:2022,
+        aib:252_billion ;
+    aib:come aib:AI,
+        aib:Biden,
+        aib:Big_Tech,
+        aib:December,
+        aib:Google_DeepMind,
+        aib:October,
+        aib:OpenAI,
+        aib:some_years,
+        aib:the_AI_revolution,
+        aib:the_European_Unions_AI_Act ;
+    aib:give aib:API ;
+    aib:hit aib:AI ;
+    aib:outpace aib:2023 ;
+    aib:related_to aib:672_billion,
+        aib:AI,
+        aib:China,
+        aib:US,
+        aib:the_United_Kingdom ;
+    aib:say aib:2017,
+        aib:2022 ;
+    aib:show aib:AI ;
+    aib:star aib:Harrison_Ford,
+        aib:Indiana_Jones ;
+    aib:tell aib:AI ;
+    aib:win aib:AI,
+        aib:the_United_States ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Google a aib:Organization ;
+    rdfs:label "Google" ;
+    aib:appear aib:AI,
+        aib:Bird_Calls_-_IEEE_Spectrum,
+        aib:Foundation_Model_Decodes_Whale,
+        aib:IEEE_Spectrum ;
+    aib:continue aib:AI,
+        aib:DeepMind ;
+    aib:cost aib:OpenAI,
+        aib:an_estimated_191_million,
+        aib:an_estimated_78_million ;
+    aib:develop aib:OpenAI ;
+    aib:edge aib:Gemini ;
+    aib:face aib:AI ;
+    aib:get aib:Gemini,
+        aib:Gemini_AI_Google,
+        aib:Google,
+        aib:Personal_Intelligence,
+        aib:Tuesday,
+        aib:US ;
+    aib:have aib:AI,
+        aib:Google_Bard,
+        aib:Pixel,
+        aib:six-month-old ;
+    aib:hold aib:Gemini,
+        aib:Meta_AI ;
+    aib:incentivize aib:Safari ;
+    aib:lead aib:OpenAI ;
+    aib:make aib:AI,
+        aib:AZ,
+        aib:Alphabet,
+        aib:CA,
+        aib:Gemini,
+        aib:OpenAI,
+        aib:Phoenix,
+        aib:San_Francisco,
+        aib:Uber_Eats ;
+    aib:purchase aib:DeepMind ;
+    aib:related_to aib:AI,
+        aib:Claude,
+        aib:Copilot,
+        aib:Foundation,
+        aib:GPT-4,
+        aib:Microsoft,
+        aib:OpenAIs_GPT-3,
+        aib:Shakespearean ;
+    aib:release aib:2023 ;
+    aib:rename aib:Bard_for_Gemini ;
+    aib:say aib:Chile,
+        aib:Gemini,
+        aib:earlier_this_year ;
+    aib:tap aib:Photos ;
+    aib:use aib:AI,
+        aib:Amazon_Translate,
+        aib:Copilot,
+        aib:Excel,
+        aib:Google_Translate,
+        aib:LLM,
+        aib:Microsoft_365,
+        aib:Microsoft_Copilot,
+        aib:Microsoft_Translator,
+        aib:Perplexity,
+        aib:Pixel,
+        aib:Teams ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:Gemini a aib:Location,
+        aib:Organization,
+        aib:Person ;
+    rdfs:label "Gemini" ;
+    aib:guide aib:Reuters ;
+    aib:have aib:Android,
+        aib:Chinese,
+        aib:Gemini ;
+    aib:hold aib:Meta_AI ;
+    aib:make aib:AI,
+        aib:OpenAI ;
+    aib:related_to aib:Amazon_Alexa,
+        aib:Siri ;
+    aib:steer aib:Super_Bowl,
+        aib:last_year ;
+    aib:switch aib:LLM ;
+    dcterms:source <https://www.bbc.com/news/technology-65855333>,
+        <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/>,
+        <https://www.theverge.com/23610427/chatbots-chatgpt-new-bing-google-bard-conversational-ai> .
+
+aib:OpenAI a aib:Location,
+        aib:Organization,
+        aib:Person ;
+    rdfs:label "OpenAI" ;
+    aib:accompany aib:Meta_AI ;
+    aib:announce aib:Disney,
+        aib:Sora,
+        aib:only_a_few_months_ago,
+        aib:the_end_of_2024 ;
+    aib:come aib:AI,
+        aib:Biden,
+        aib:Big_Tech,
+        aib:December,
+        aib:Google_DeepMind,
+        aib:October,
+        aib:OpenAI,
+        aib:some_years,
+        aib:the_AI_revolution,
+        aib:the_European_Unions_AI_Act ;
+    aib:cost aib:an_estimated_78_million ;
+    aib:create aib:AI,
+        aib:Amazon_Bedrock,
+        aib:GPT-4_API ;
+    aib:flood aib:Adobes_Firefly,
+        aib:Balenciaga ;
+    aib:license aib:AI,
+        aib:Disney_Plus,
+        aib:Sora ;
+    aib:make aib:AI ;
+    aib:relatedTo aib:Sam_Altman,
+        aib:trillions_of_dollars ;
+    aib:related_to aib:Chatbot_Arena ;
+    aib:report aib:API,
+        aib:Sam_Altman,
+        aib:Sora,
+        aib:TikTok ;
+    aib:say aib:Sam_Altman,
+        aib:Tuesday ;
+    aib:throw aib:AI,
+        aib:Jakub_Pachocki,
+        aib:OpenAI ;
+    dcterms:source <https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/> .
+
+aib:AI a aib:Location,
+        aib:Organization ;
+    rdfs:label "AI" ;
+    aib:account aib:2023 ;
+    aib:anticipate aib:Gen_X ;
+    aib:apply aib:AI ;
+    aib:be aib:AI,
+        aib:Democrats,
+        aib:Republicans ;
+    aib:become aib:AI,
+        aib:Googles_Super_Bowl ;
+    aib:begin aib:Generative_AI ;
+    aib:believe aib:the_21st_century ;
+    aib:coin aib:Dartmouth_College,
+        aib:Turing ;
+    aib:collaborate aib:AI,
+        aib:The_Hague_University_of_Applied_Sciences ;
+    aib:come aib:AI,
+        aib:Google_DeepMind,
+        aib:OpenAI,
+        aib:some_years,
+        aib:the_AI_revolution ;
+    aib:continue aib:DeepMind ;
+    aib:create aib:AI ;
+    aib:define aib:AI ;
+    aib:develop aib:Google,
+        aib:OpenAI ;
+    aib:discuss aib:the_Institute_for_Human-Centered_Artificial_Intelligence ;
+    aib:divide aib:AI ;
+    aib:do aib:AI,
+        aib:a_week,
+        aib:at_least_500_million ;
+    aib:expect aib:AI,
+        aib:daily,
+        aib:the_next_few_years ;
+    aib:explain aib:China ;
+    aib:express aib:AI,
+        aib:Yann_LeCun,
+        aib:daily ;
+    aib:focus aib:AI ;
+    aib:give aib:2023,
+        aib:API ;
+    aib:guide aib:Claude,
+        aib:DeepSeek,
+        aib:Gemini,
+        aib:Meta_AI,
+        aib:Reuters ;
+    aib:halt aib:January ;
+    aib:have aib:AI,
+        aib:DeepMind,
+        aib:Google,
+        aib:Google_Bard,
+        aib:more_than_70_years ;
+    aib:hit aib:AI ;
+    aib:include aib:1950,
+        aib:Alan_Turing,
+        aib:Computing_Machinery,
+        aib:Intelligence ;
+    aib:introduce aib:a_year ;
+    aib:invest aib:Microsoft,
+        aib:OpenAI ;
+    aib:join aib:AI ;
+    aib:let aib:AI,
+        aib:next_year ;
+    aib:license aib:Disney_Plus ;
+    aib:make aib:AI,
+        aib:OpenAI,
+        aib:ages_16_to_74 ;
+    aib:outperform aib:AI,
+        aib:Maslej ;
+    aib:pass aib:AI,
+        aib:Between_2016_and_2023,
+        aib:the_Securities_and_Exchange_Commission,
+        aib:the_United_States ;
+    aib:perform aib:AI ;
+    aib:pronounce aib:ages_18_to_29 ;
+    aib:provide aib:AI ;
+    aib:read aib:2021,
+        aib:2022,
+        aib:2023 ;
+    aib:relatedTo aib:2024,
+        aib:AI,
+        aib:ML ;
+    aib:related_to aib:2023,
+        aib:35,
+        aib:AGI,
+        aib:AI,
+        aib:ASI,
+        aib:Alexa,
+        aib:Amazon_Alexa,
+        aib:Americans,
+        aib:BBQ,
+        aib:BOLD,
+        aib:Claude,
+        aib:Copilot,
+        aib:GPT,
+        aib:GPT-4,
+        aib:Gemini,
+        aib:Google,
+        aib:ML,
+        aib:Meta_AI,
+        aib:Microsoft,
+        aib:Nepal,
+        aib:Netherlands,
+        aib:OpenAI_Codex,
+        aib:SAG,
+        aib:Siri,
+        aib:Stanford_University,
+        aib:ToxiGen,
+        aib:a_really_big_year,
+        aib:daily,
+        aib:last_year,
+        aib:the_fall_of_2019,
+        aib:this_year ;
+    aib:remain aib:AI ;
+    aib:remember aib:Bard,
+        aib:Bing ;
+    aib:replace aib:AI ;
+    aib:represent aib:AI ;
+    aib:require aib:AI ;
+    aib:reveal aib:AI,
+        aib:Epoch_AI ;
+    aib:say aib:2017,
+        aib:2022,
+        aib:2023,
+        aib:AI,
+        aib:Americans,
+        aib:Aussies,
+        aib:Brits,
+        aib:COVID-19,
+        aib:Indonesia,
+        aib:Maslej,
+        aib:Spotify,
+        aib:Thailand,
+        aib:Western,
+        aib:daily,
+        aib:each_day,
+        aib:five_or_six_years,
+        aib:the_previous_month,
+        aib:the_year_before ;
+    aib:set aib:AI ;
+    aib:shape aib:2024,
+        aib:years ;
+    aib:show aib:AI,
+        aib:Democrats,
+        aib:Iran,
+        aib:US,
+        aib:daily,
+        aib:the_United_States ;
+    aib:stay aib:the_Think_Newsletter,
+        aib:weekly ;
+    aib:strike aib:today ;
+    aib:think aib:About_a_quarter,
+        aib:Americans ;
+    aib:train aib:Claude,
+        aib:OpenAI ;
+    aib:understand aib:AGI ;
+    aib:urge aib:Trump ;
+    aib:use aib:AI,
+        aib:Amazon_Alexa,
+        aib:Amazon_Translate,
+        aib:Apple,
+        aib:Boston_Dyanmics,
+        aib:Copilot,
+        aib:Excel,
+        aib:Google,
+        aib:Google_Translate,
+        aib:LLM,
+        aib:Microsoft_365,
+        aib:Microsoft_Copilot,
+        aib:Microsoft_Translator,
+        aib:NLP,
+        aib:Perplexity,
+        aib:Pixel,
+        aib:Teams ;
+    dcterms:source <https://aiindex.stanford.edu/report/> .
+

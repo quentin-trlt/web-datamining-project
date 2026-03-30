@@ -10,6 +10,8 @@ from pathlib import Path
 
 from rdflib import Graph, URIRef
 
+from utils import project_path
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
@@ -175,9 +177,11 @@ def save_splits(
     train: list[tuple],
     valid: list[tuple],
     test: list[tuple],
-    output_dir: str = "kge_datasets",
+    output_dir: str = None,
 ) -> None:
     """Save splits as tab-separated files (head \\t relation \\t tail)."""
+    if output_dir is None:
+        output_dir = project_path("kge_datasets")
     out = Path(output_dir)
     out.mkdir(parents=True, exist_ok=True)
 
@@ -190,13 +194,27 @@ def save_splits(
 
 
 def run_data_preparation(
-    expanded_nt: str = "kg_artifacts/expanded.nt",
-    output_dir: str = "kge_datasets",
-    stats_output: str = "data/kge_data_stats.json",
+    expanded_nt: str = None,
+    output_dir: str = None,
+    stats_output: str = None,
 ) -> dict:
     """Run the full data preparation pipeline."""
-    # Load
+    if expanded_nt is None:
+        expanded_nt = project_path("kg_artifacts/expanded.nt")
+    if output_dir is None:
+        output_dir = project_path("kge_datasets")
+    if stats_output is None:
+        stats_output = project_path("data/kge_data_stats.json")
+    # Load — fallback to initial_kb.ttl if expanded.nt is empty
     triples = load_expanded_kb(expanded_nt)
+    if not triples:
+        fallback = project_path("kg_artifacts/initial_kb.ttl")
+        logger.warning(f"Expanded KB is empty, falling back to {fallback}")
+        triples = load_expanded_kb(fallback)
+    if not triples:
+        logger.error("No triples found in any KB file. Run kg.pipeline first.")
+        return {"total_triples": 0, "num_entities": 0, "num_relations": 0,
+                "train_size": 0, "valid_size": 0, "test_size": 0}
 
     # Clean
     triples = clean_triples(triples)

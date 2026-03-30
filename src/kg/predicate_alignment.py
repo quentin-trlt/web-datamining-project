@@ -10,6 +10,8 @@ import pandas as pd
 from rdflib import Graph, Literal, Namespace, OWL, RDFS, URIRef
 from SPARQLWrapper import SPARQLWrapper, JSON
 
+from utils import project_path
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
@@ -35,6 +37,7 @@ def _search_wikidata_property(predicate_name: str) -> list[dict]:
     """Search Wikidata SPARQL endpoint for properties matching the predicate name."""
     sparql = SPARQLWrapper(WIKIDATA_SPARQL)
     sparql.setReturnFormat(JSON)
+    sparql.addCustomHttpHeader("User-Agent", "ESILV-WebDatamining-Project/1.0 (student project)")
 
     # Search by label containing the predicate words
     search_term = predicate_name.lower()
@@ -146,11 +149,17 @@ def align_predicates(
 
 
 def run_predicate_alignment(
-    initial_kb_path: str = "kg_artifacts/initial_kb.ttl",
-    alignment_path: str = "kg_artifacts/alignment.ttl",
-    mapping_output: str = "data/predicate_mapping.csv",
+    initial_kb_path: str = None,
+    alignment_path: str = None,
+    mapping_output: str = None,
 ) -> Path:
     """Run the full predicate alignment pipeline."""
+    if initial_kb_path is None:
+        initial_kb_path = project_path("kg_artifacts/initial_kb.ttl")
+    if alignment_path is None:
+        alignment_path = project_path("kg_artifacts/alignment.ttl")
+    if mapping_output is None:
+        mapping_output = project_path("data/predicate_mapping.csv")
     graph = Graph()
     graph.parse(initial_kb_path, format="turtle")
 

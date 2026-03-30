@@ -8,11 +8,15 @@ from pathlib import Path
 
 import owlready2
 
+from utils import project_path
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
 
-def load_family_ontology(owl_path: str = "kg_artifacts/family.owl") -> owlready2.Ontology:
+def load_family_ontology(owl_path: str = None) -> owlready2.Ontology:
+    if owl_path is None:
+        owl_path = project_path("kg_artifacts/family.owl")
     """Load the family ontology from an OWL file."""
     path = Path(owl_path).resolve()
     onto = owlready2.get_ontology(path.as_uri()).load()
@@ -29,7 +33,7 @@ def add_old_person_rule(onto: owlready2.Ontology) -> None:
     with onto:
         rule = owlready2.Imp()
         rule.set_as_rule(
-            "family:Person(?p), family:hasAge(?p, ?age), greaterThan(?age, 60) -> family:OldPerson(?p)"
+            "Person(?p), hasAge(?p, ?age), greaterThan(?age, 60) -> OldPerson(?p)"
         )
     logger.info("SWRL rule added: Person(?p) ∧ hasAge(?p, ?age) ∧ greaterThan(?age, 60) → OldPerson(?p)")
 
@@ -80,7 +84,9 @@ def run_reasoner_and_display(onto: owlready2.Ontology) -> list[str]:
     return results
 
 
-def run_family_swrl(owl_path: str = "kg_artifacts/family.owl") -> list[str]:
+def run_family_swrl(owl_path: str = None) -> list[str]:
+    if owl_path is None:
+        owl_path = project_path("kg_artifacts/family.owl")
     """Run the complete family SWRL demonstration."""
     logger.info("=" * 60)
     logger.info("Part 1: SWRL Reasoning on family.owl")

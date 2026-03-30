@@ -6,8 +6,9 @@ Run this script to execute the entire data acquisition & IE pipeline.
 import argparse
 import logging
 
-from src.crawl.crawler import crawl
-from src.ie.ner import run_extraction
+from crawl.crawler import crawl
+from ie.ner import run_extraction
+from utils import project_path
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
@@ -20,10 +21,12 @@ def main():
         help="Skip crawling and use existing crawler_output.jsonl",
     )
     parser.add_argument(
-        "--crawl-output", default="data/crawler_output.jsonl",
+        "--crawl-output", default=None,
         help="Path to crawler output JSONL file",
     )
     args = parser.parse_args()
+    if args.crawl_output is None:
+        args.crawl_output = project_path("data/crawler_output.jsonl")
 
     # Phase 1: Crawl & Clean
     if not args.skip_crawl:

@@ -9,9 +9,11 @@ import time
 from difflib import SequenceMatcher
 from pathlib import Path
 
-import httpx
 import pandas as pd
+import requests
 from rdflib import Graph, Literal, Namespace, OWL, RDF, RDFS, URIRef
+
+from utils import project_path
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
@@ -40,12 +42,15 @@ def _query_wikidata_search(entity_name: str, language: str = "en", limit: int = 
         "limit": limit,
         "format": "json",
     }
+    headers = {
+        "User-Agent": "ESILV-WebDatamining-Project/1.0 (student project; Python)",
+        "Accept": "application/json",
+    }
     try:
-        with httpx.Client(timeout=15) as client:
-            resp = client.get(WIKIDATA_API, params=params)
-            resp.raise_for_status()
-            data = resp.json()
-            return data.get("search", [])
+        resp = requests.get(WIKIDATA_API, params=params, headers=headers, timeout=15)
+        resp.raise_for_status()
+        data = resp.json()
+        return data.get("search", [])
     except Exception as e:
         logger.warning(f"Wikidata search failed for '{entity_name}': {e}")
         return []
@@ -155,12 +160,20 @@ def _define_local_entity(graph: Graph, uri: URIRef, name: str, spacy_label: str)
 
 
 def run_entity_linking(
-    initial_kb_path: str = "kg_artifacts/initial_kb.ttl",
-    entities_csv: str = "data/extracted_entities.csv",
-    alignment_output: str = "kg_artifacts/alignment.ttl",
-    mapping_output: str = "data/entity_mapping.csv",
+    initial_kb_path: str = None,
+    entities_csv: str = None,
+    alignment_output: str = None,
+    mapping_output: str = None,
 ) -> tuple[Path, Path]:
     """Run the full entity linking pipeline."""
+    if initial_kb_path is None:
+        initial_kb_path = project_path("kg_artifacts/initial_kb.ttl")
+    if entities_csv is None:
+        entities_csv = project_path("data/extracted_entities.csv")
+    if alignment_output is None:
+        alignment_output = project_path("kg_artifacts/alignment.ttl")
+    if mapping_output is None:
+        mapping_output = project_path("data/entity_mapping.csv")
     graph = Graph()
     graph.parse(initial_kb_path, format="turtle")
 

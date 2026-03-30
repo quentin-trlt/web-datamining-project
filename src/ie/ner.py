@@ -11,6 +11,8 @@ from pathlib import Path
 import pandas as pd
 import spacy
 
+from utils import project_path
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
@@ -27,8 +29,10 @@ def load_spacy_model(model_name: str = "en_core_web_trf") -> spacy.Language:
         return spacy.load("en_core_web_sm")
 
 
-def load_crawled_data(input_path: str = "data/crawler_output.jsonl") -> list[dict]:
+def load_crawled_data(input_path: str = None) -> list[dict]:
     """Load crawled pages from JSONL file."""
+    if input_path is None:
+        input_path = project_path("data/crawler_output.jsonl")
     pages = []
     with open(input_path, "r", encoding="utf-8") as f:
         for line in f:
@@ -137,15 +141,21 @@ def _find_connecting_verb(ent1, ent2, sent) -> str | None:
 
 
 def run_extraction(
-    input_path: str = "data/crawler_output.jsonl",
-    entities_output: str = "data/extracted_entities.csv",
-    relations_output: str = "data/extracted_relations.csv",
+    input_path: str = None,
+    entities_output: str = None,
+    relations_output: str = None,
 ) -> tuple[Path, Path]:
     """
     Run the full NER + relation extraction pipeline.
 
     Returns paths to the entities and relations CSV files.
     """
+    if input_path is None:
+        input_path = project_path("data/crawler_output.jsonl")
+    if entities_output is None:
+        entities_output = project_path("data/extracted_entities.csv")
+    if relations_output is None:
+        relations_output = project_path("data/extracted_relations.csv")
     nlp = load_spacy_model()
     pages = load_crawled_data(input_path)
 

@@ -1,0 +1,9 @@
+entity,inferred_class,rule
+OpenAI,AICompany,"Organization(?o) ∧ develops(?o, ?p) ∧ AIProduct(?p) → AICompany(?o)"
+Google,AICompany,"Organization(?o) ∧ develops(?o, ?p) ∧ AIProduct(?p) → AICompany(?o)"
+Microsoft,AICompany,"Organization(?o) ∧ develops(?o, ?p) ∧ AIProduct(?p) → AICompany(?o)"
+Meta,AICompany,"Organization(?o) ∧ develops(?o, ?p) ∧ AIProduct(?p) → AICompany(?o)"
+Apple,AICompany,"Organization(?o) ∧ develops(?o, ?p) ∧ AIProduct(?p) → AICompany(?o)"
+Amazon,AICompany,"Organization(?o) ∧ develops(?o, ?p) ∧ AIProduct(?p) → AICompany(?o)"
+IBM,AICompany,"Organization(?o) ∧ develops(?o, ?p) ∧ AIProduct(?p) → AICompany(?o)"
+Tesla,AICompany,"Organization(?o) ∧ develops(?o, ?p) ∧ AIProduct(?p) → AICompany(?o)"

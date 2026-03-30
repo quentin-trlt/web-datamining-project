@@ -1,0 +1,148 @@
+predicate,wikidata_property,wikidata_label,alignment_type,source
+accompany,,,none,no_match
+account,P553,website account on,subPropertyOf,sparql_search
+achieve,P7921,TrueAchievements series ID,subPropertyOf,sparql_search
+agree,,,none,no_match
+allege,,,none,no_match
+analyze,,,none,no_match
+announce,P6949,announcement date,subPropertyOf,sparql_search
+answer,P5084,Yahoo Answers category ID,subPropertyOf,sparql_search
+anticipate,,,none,no_match
+appear,P746,date of disappearance,subPropertyOf,sparql_search
+apply,,,none,no_match
+ask,P845,Saskatchewan Register of Heritage Property ID,subPropertyOf,sparql_search
+attract,P8824,attraction to,subPropertyOf,sparql_search
+be,P617,yard number,subPropertyOf,sparql_search
+beat,P5240,RollDaBeats artist ID,subPropertyOf,sparql_search
+become,,,none,no_match
+begin,,,none,no_match
+believe,,,none,no_match
+build,P193,main building contractor,subPropertyOf,sparql_search
+call,P432,callsign of airline,subPropertyOf,sparql_search
+carry,P3349,designed to carry,subPropertyOf,sparql_search
+chat,P7650,WeChat ID,subPropertyOf,sparql_search
+cheer,,,none,no_match
+cite,P2040,CITES Species+ ID,subPropertyOf,sparql_search
+clamp,,,none,no_match
+coin,P4455,Coinage of the Roman Republic Online ID,subPropertyOf,sparql_search
+collaborate,,,none,no_match
+come,P3362,operating income,subPropertyOf,sparql_search
+complain,,,none,no_match
+conduct,P2055,electrical conductivity,subPropertyOf,sparql_search
+consider,,,none,no_match
+continue,P6366,Microsoft Academic ID (discontinued),subPropertyOf,sparql_search
+cost,P2130,capital cost,subPropertyOf,sparql_search
+cover,P189,location of discovery,subPropertyOf,sparql_search
+create,P4661,reservoir created,subPropertyOf,sparql_search
+define,P4250,defined daily dose,subPropertyOf,sparql_search
+demonstrate,,,none,no_match
+detail,P1621,detail map,subPropertyOf,sparql_search
+develop,P3094,develops from,subPropertyOf,sparql_search
+dig,P630,Paris city digital code,subPropertyOf,sparql_search
+discuss,P3254,property proposal discussion,subPropertyOf,sparql_search
+divide,P8400,House Divided ID,subPropertyOf,sparql_search
+do,P622,spacecraft docking/undocking date,subPropertyOf,sparql_search
+drop,,,none,no_match
+edge,P6362,Litchfield Ledger ID,subPropertyOf,sparql_search
+enable,,,none,no_match
+enter,P371,presenter,subPropertyOf,sparql_search
+estimate,P8340,estimated value,subPropertyOf,sparql_search
+exist,P5132,suggests the existence of,subPropertyOf,sparql_search
+expect,P2250,life expectancy,subPropertyOf,sparql_search
+explain,P11641,explain xkcd ID,subPropertyOf,sparql_search
+explore,P5650,Exoplanet Data Explorer exoplanet ID,subPropertyOf,sparql_search
+express,P4240,regular expression syntax,subPropertyOf,sparql_search
+face,P765,surface played on,subPropertyOf,sparql_search
+feature,P706,located in/on physical feature,subPropertyOf,sparql_search
+find,P535,Find a Grave memorial ID,subPropertyOf,sparql_search
+flood,,,none,no_match
+focus,P5008,on focus list of Wikimedia project,subPropertyOf,sparql_search
+form,P400,platform,subPropertyOf,sparql_search
+gain,P5097,Logainm ID,subPropertyOf,sparql_search
+generate,,,none,no_match
+get,P533,target,subPropertyOf,sparql_search
+give,P735,given name,subPropertyOf,sparql_search
+go,P6,head of government,subPropertyOf,sparql_search
+guide,P595,Guide to Pharmacology Ligand ID,subPropertyOf,sparql_search
+halt,P6560,Saxony-Anhalt protected area ID,subPropertyOf,sparql_search
+have,P3113,does not have part,subPropertyOf,sparql_search
+hear,P3395,heart rate,subPropertyOf,sparql_search
+hit,P84,architect,subPropertyOf,sparql_search
+hold,P2835,lowest income threshold,subPropertyOf,sparql_search
+identify,,,none,no_match
+incentivize,,,none,no_match
+include,,,none,no_match
+introduce,P751,introduced feature,subPropertyOf,sparql_search
+invest,P1951,investor,subPropertyOf,sparql_search
+join,P2738,disjoint union of,subPropertyOf,sparql_search
+launch,P619,UTC date of spacecraft launch,subPropertyOf,sparql_search
+lead,P1918,altered regulation leads to,subPropertyOf,sparql_search
+let,P723,Digitale Bibliotheek voor de Nederlandse Letteren author ID,subPropertyOf,sparql_search
+license,P275,copyright license,subPropertyOf,sparql_search
+look,P8629,Occupational Outlook Handbook ID,subPropertyOf,sparql_search
+m,P6,head of government,subPropertyOf,sparql_search
+make,P3047,playmakerstats.com player ID,subPropertyOf,sparql_search
+measure,P111,measured physical quantity,subPropertyOf,sparql_search
+mention,P6568,inscription mentions,subPropertyOf,sparql_search
+note,P3305,KINENOTE person ID,subPropertyOf,sparql_search
+outpace,,,none,no_match
+outperform,,,none,no_match
+pass,P3437,carries passengers or cargo,subPropertyOf,sparql_search
+perform,P175,performer,subPropertyOf,sparql_search
+pioneer,P7498,Women Film Pioneers ID,subPropertyOf,sparql_search
+place,P19,place of birth,subPropertyOf,sparql_search
+pop,P4179,tabular population,subPropertyOf,sparql_search
+pronounce,,,none,no_match
+provide,P4971,UK Provider Reference Number,subPropertyOf,sparql_search
+publish,P123,publisher,subPropertyOf,sparql_search
+purchase,,,none,no_match
+put,P479,input device,subPropertyOf,sparql_search
+rally,P3930,Rallye-info.com driver or co-driver ID,subPropertyOf,sparql_search
+read,P4295,readership,subPropertyOf,sparql_search
+relatedTo,P1753,list related to category,subPropertyOf,sparql_search
+related_to,,,none,no_match
+release,P406,soundtrack release,subPropertyOf,sparql_search
+remain,,,none,no_match
+remember,P4551,Everyone Remembered ID,subPropertyOf,sparql_search
+rename,,,none,no_match
+replace,P694,replaced synonym (for nom. nov.),subPropertyOf,sparql_search
+report,P561,NATO reporting name,subPropertyOf,sparql_search
+represent,P210,party chief representative,subPropertyOf,sparql_search
+require,P862,Operational Requirement of the UK Air Ministry,subPropertyOf,sparql_search
+reveal,,,none,no_match
+s,P179,part of the series,subPropertyOf,sparql_search
+say,P2268,Musée d'Orsay artist or personality ID,subPropertyOf,sparql_search
+see,P374,Insee municipality code,subPropertyOf,sparql_search
+set,P4103,assets under management,subPropertyOf,sparql_search
+shape,P784,mushroom cap shape,subPropertyOf,sparql_search
+show,P364,original language of film or TV show,subPropertyOf,sparql_search
+spit,P7547,National Health Portal hospital ID,subPropertyOf,sparql_search
+spotify,P2205,Spotify album ID,subPropertyOf,sparql_search
+spread,,,none,no_match
+stand,P503,ISO standard,subPropertyOf,sparql_search
+star,P523,temporal range start,subPropertyOf,sparql_search
+start,P523,temporal range start,subPropertyOf,sparql_search
+stay,,,none,no_match
+steer,,,none,no_match
+strike,P8331,strike tone,subPropertyOf,sparql_search
+sue,P433,issue,subPropertyOf,sparql_search
+surpass,,,none,no_match
+survey,P4478,Survey of Scottish Witchcraft - Accused witch ID,subPropertyOf,sparql_search
+switch,P11072,Nintendo Switch title ID,subPropertyOf,sparql_search
+take,P1956,takeoff and landing capability,subPropertyOf,sparql_search
+talk,P5030,talk show guest,subPropertyOf,sparql_search
+tap,P7474,Online Cenotaph ID,subPropertyOf,sparql_search
+tell,P59,constellation,subPropertyOf,sparql_search
+test,P541,office contested,subPropertyOf,sparql_search
+think,P13614,ThinkyGames genre ID,subPropertyOf,sparql_search
+throw,,,none,no_match
+train,P834,train depot,subPropertyOf,sparql_search
+understand,,,none,no_match
+update,P711,"Strunz 8th edition (series ID, updated)",subPropertyOf,sparql_search
+upgrade,,,none,no_match
+urge,P3187,Marburger Professorenkatalog ID,subPropertyOf,sparql_search
+use,P612,mother house,subPropertyOf,sparql_search
+warn,,,none,no_match
+win,P190,twinned administrative body,subPropertyOf,sparql_search
+write,P58,screenwriter,subPropertyOf,sparql_search
+writer,P58,screenwriter,subPropertyOf,sparql_search

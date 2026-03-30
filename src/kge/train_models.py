@@ -6,6 +6,8 @@ import json
 import logging
 from pathlib import Path
 
+from utils import project_path
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
@@ -91,12 +93,16 @@ def save_model(result, output_dir: str, model_name: str) -> Path:
 
 
 def run_training(
-    data_dir: str = "kge_datasets",
-    output_dir: str = "data/kge_models",
+    data_dir: str = None,
+    output_dir: str = None,
     models: list[str] | None = None,
     config: dict | None = None,
 ) -> dict:
     """Train all specified KGE models."""
+    if data_dir is None:
+        data_dir = project_path("kge_datasets")
+    if output_dir is None:
+        output_dir = project_path("data/kge_models")
     if models is None:
         models = ["TransE", "ComplEx"]
 
