@@ -145,26 +145,41 @@ def split_dataset(
         entity_count[h] = entity_count.get(h, 0) + 1
         entity_count[t] = entity_count.get(t, 0) + 1
 
-    # Move triples to valid set
+    # Move triples to valid/test sets, alternating to fill both evenly
     new_train = []
+    fill_valid_next = True  # alternate between valid and test
     for h, r, t in train:
-        if (
-            len(valid) < target_valid
-            and entity_count.get(h, 0) > 1
+        eligible = (
+            entity_count.get(h, 0) > 1
             and entity_count.get(t, 0) > 1
-        ):
-            valid.append((h, r, t))
-            entity_count[h] -= 1
-            entity_count[t] -= 1
-        elif (
-            len(test) < target_test
-            and entity_count.get(h, 0) > 1
-            and entity_count.get(t, 0) > 1
-        ):
-            test.append((h, r, t))
-            entity_count[h] -= 1
-            entity_count[t] -= 1
-        else:
+        )
+        placed = False
+        if eligible:
+            # Alternate between valid and test to fill both sets
+            if fill_valid_next and len(valid) < target_valid:
+                valid.append((h, r, t))
+                entity_count[h] -= 1
+                entity_count[t] -= 1
+                fill_valid_next = False
+                placed = True
+            elif not fill_valid_next and len(test) < target_test:
+                test.append((h, r, t))
+                entity_count[h] -= 1
+                entity_count[t] -= 1
+                fill_valid_next = True
+                placed = True
+            # If the preferred set is full, try the other one
+            elif len(valid) < target_valid:
+                valid.append((h, r, t))
+                entity_count[h] -= 1
+                entity_count[t] -= 1
+                placed = True
+            elif len(test) < target_test:
+                test.append((h, r, t))
+                entity_count[h] -= 1
+                entity_count[t] -= 1
+                placed = True
+        if not placed:
             new_train.append((h, r, t))
 
     train = new_train

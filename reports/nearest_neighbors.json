@@ -1,0 +1,212 @@
+{
+  "http://example.org/ai-news/1037_billion": [
+    {
+      "entity": "http://www.wikidata.org/entity/Q88069899",
+      "similarity": 0.3957432806491852
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q3181044",
+      "similarity": 0.3674640357494354
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q74421935",
+      "similarity": 0.3649410009384155
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q541721",
+      "similarity": 0.35663554072380066
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q57479591",
+      "similarity": 0.3551529347896576
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q60716",
+      "similarity": 0.35343942046165466
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q77944059",
+      "similarity": 0.34630224108695984
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q83779057",
+      "similarity": 0.34489065408706665
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q686228",
+      "similarity": 0.3445741534233093
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q85234304",
+      "similarity": 0.3411124348640442
+    }
+  ],
+  "http://example.org/ai-news/110_billion": [
+    {
+      "entity": "http://www.wikidata.org/entity/Q6753646",
+      "similarity": 0.38363030552864075
+    },
+    {
+      "entity": "http://example.org/ai-news/an_additional_10_billion",
+      "similarity": 0.3738907277584076
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q451568",
+      "similarity": 0.351875901222229
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q284129",
+      "similarity": 0.330962210893631
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q5635670",
+      "similarity": 0.33025291562080383
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q120435068",
+      "similarity": 0.32791775465011597
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q130644073",
+      "similarity": 0.3268164396286011
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q378116",
+      "similarity": 0.32569581270217896
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q864660",
+      "similarity": 0.32555609941482544
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q1447",
+      "similarity": 0.3239089846611023
+    }
+  ],
+  "http://example.org/ai-news/178_trillion": [
+    {
+      "entity": "http://example.org/ai-news/GPT-4",
+      "similarity": 0.4607316851615906
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q51720244",
+      "similarity": 0.4288637936115265
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q54862741",
+      "similarity": 0.42798739671707153
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q674337",
+      "similarity": 0.4230038523674011
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q4243681",
+      "similarity": 0.4229162037372589
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q18707655",
+      "similarity": 0.4219811260700226
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q57416399",
+      "similarity": 0.41440171003341675
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q1881864",
+      "similarity": 0.4135315716266632
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q113407952",
+      "similarity": 0.40534549951553345
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q12585933",
+      "similarity": 0.40419191122055054
+    }
+  ],
+  "http://example.org/ai-news/18_months": [
+    {
+      "entity": "http://www.wikidata.org/entity/Q19208",
+      "similarity": 0.4126930832862854
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q16251493",
+      "similarity": 0.4124700129032135
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q2409343",
+      "similarity": 0.4007661044597626
+    },
+    {
+      "entity": "http://example.org/ai-news/every_year",
+      "similarity": 0.39807218313217163
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q69307787",
+      "similarity": 0.3965541422367096
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q122908927",
+      "similarity": 0.3934498727321625
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q14956241",
+      "similarity": 0.392645925283432
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q62274494",
+      "similarity": 0.38813674449920654
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q75012",
+      "similarity": 0.3872183859348297
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q3093316",
+      "similarity": 0.38703060150146484
+    }
+  ],
+  "http://example.org/ai-news/1950": [
+    {
+      "entity": "http://www.wikidata.org/entity/Q4135779",
+      "similarity": 0.3694320023059845
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q601050",
+      "similarity": 0.35834619402885437
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q428936",
+      "similarity": 0.3561416268348694
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q124293642",
+      "similarity": 0.35242021083831787
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q1960549",
+      "similarity": 0.34839558601379395
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q1438055",
+      "similarity": 0.34713229537010193
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q1194133",
+      "similarity": 0.33855026960372925
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q58413171",
+      "similarity": 0.33707770705223083
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q138665811",
+      "similarity": 0.3370416462421417
+    },
+    {
+      "entity": "http://www.wikidata.org/entity/Q7627940",
+      "similarity": 0.33568838238716125
+    }
+  ]
+}

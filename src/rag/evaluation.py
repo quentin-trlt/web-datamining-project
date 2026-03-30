@@ -79,7 +79,7 @@ def run_evaluation(
             if len(rag_rows) > 10:
                 rag_answer += f" ... ({len(rag_rows)} total)"
         else:
-            rag_answer = rag_result.get("error", "No results")
+            rag_answer = rag_result.get("error") or "No results"
 
         result = {
             "question": question,

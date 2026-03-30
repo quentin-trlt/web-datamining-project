@@ -1,0 +1,77 @@
+question,baseline_answer,rag_sparql,rag_result,rag_repaired,rag_attempts,rag_error,rag_num_rows
+Which organizations develop AI products?,"**Large technology companies** such as Google, Microsoft, Amazon, IBM, and NVIDIA are responsible for developing AI products. These companies invest heavily in AI research and development, and they have a wide range of products and services that use AI, such as search engines, computer vision, and natural language processing.","PREFIX aib: <http://example.org/ai-news/>
+SELECT DISTINCT ?org ?product WHERE {
+  ?org wdt:P31 ?product .
+  ?product aib:developedBy ?organization .
+  FILTER (wdt:P112 ?type WHERE { ?type aib:developedBy ?organization . ?product wdt:P31 ?organization . } )
+
+
+}
+LIMIT 20","Expected SelectQuery, found 'FILTER'  (at char 151), (line:5, col:3)",True,4,"Expected SelectQuery, found 'FILTER'  (at char 151), (line:5, col:3)",0
+Where is OpenAI headquartered?,"OpenAI is headquartered in Mountain View, California. They are a company that specializes in natural language processing (NLP) and computer vision.","PREFIX aib: <http://example.org/ai-news/>
+SELECT ?headquarters WHERE {
+ aib:headquarteredIn ?location .
+?location wdt:P31 ?locationLabel .
+FILTER (lang(?locationLabel) = 'en')
+
+}
+LIMIT 20","Expected SelectQuery, found 'aib'  (at char 72), (line:3, col:2)",True,4,"Expected SelectQuery, found 'aib'  (at char 72), (line:3, col:2)",0
+Who founded Google?,"Google was founded by Sergey Brin and Larry Page in 1998 in Mountain View, California.","PREFIX aib: <http://example.org/ai-news/>
+SELECT ?founder WHERE { ?founder aib:foundedBy ?company . 
+} LIMIT 1",No results,False,1,,0
+List all AI products in the knowledge base.,"I am unable to access the knowledge base or provide any information about AI products, so I am unable to generate the requested list.","PREFIX aib: <http://example.org/ai-news/>
+
+SELECT DISTINCT ?product WHERE {
+?product aib:develops ?aibo .
+?aibo wdt:P452 ?product .
+?product aib:hasProduct ?product .
+?product wdt:P27 wb:subject .
+?product wdt:P31 wd:description .
+FILTER ( DISTINCT ?product )
+
+}
+LIMIT 20","Expected SelectQuery, found 'FILTER'  (at char 231), (line:9, col:1)",True,4,"Expected SelectQuery, found 'FILTER'  (at char 231), (line:9, col:1)",0
+Which companies are located in the United States?,"I cannot access real-time information, therefore I cannot provide a list of companies located in the United States. To find this information, I recommend using a search engine or a directory website that provides company contact information.","PREFIX aib: <http://example.org/ai-news/>
+
+SELECT ?company WHERE {
+?company aib:locatedIn ?location .
+?location wdt:P31 ?usa .
+
+}
+LIMIT 20",Unknown namespace prefix : wdt,True,4,Unknown namespace prefix : wdt,0
+What technologies are used by Microsoft?,"Sure, here's a summary of the major technologies used by Microsoft:
+
+**Software:**
+
+* **Office suite:** Word, Excel, PowerPoint, Outlook
+* **Windows operating system:** Provides the underlying infrastructure for other Microsoft products and provides a familiar user interface.
+* **Azure cloud platform:** Provides data storage, processing, and communication services for various applications and services.
+* **Microsoft Edge browser:** A web browser that is integrated with the Windows operating syst","PREFIX aib: <http://example.org/ai-news/>
+SELECT DISTINCT ?technology WHERE {
+?technology wdt:P31 wd:Q237 ?organization .
+?organization wdt:P116 ?industry .
+FILTER (lang(?industry) = 'en')
+SERVICE wikibase:label { ?technology rdfs:label . }
+LIMIT 20
+
+</start_of_turn>","Expected SelectQuery, found '?'  (at char 106), (line:3, col:29)",True,4,"Expected SelectQuery, found '?'  (at char 106), (line:3, col:29)",0
+Which persons work for AI companies?,"Sure, here is the answer to the question:
+
+Persons who work for AI companies come from various backgrounds and specialize in different areas of AI, such as:
+
+* **Data scientists:** They work with large datasets to train AI models.
+* **Software engineers:** They build the algorithms and models that AI systems use.
+* **Machine learning engineers:** They develop and implement machine learning algorithms.
+* **Data analysts:** They collect, clean, and analyze data to feed into AI models.
+* **AI resea","PREFIX aib: <http://example.org/ai-news/>
+
+SELECT DISTINCT ?person WHERE {
+  ?person wdt:P452 ?company .
+  FILTER (
+    ?company wdt:P31 ?product
+    ?product wdt:P108 ?person
+    SERVICE wikibase:label { bd:label ?companyLabel . }
+  )
+
+}
+LIMIT 20","Expected SelectQuery, found 'FILTER'  (at char 107), (line:5, col:3)",True,4,"Expected SelectQuery, found 'FILTER'  (at char 107), (line:5, col:3)",0

@@ -54,6 +54,7 @@ def train_model(
     model_name: str,
     training,
     validation,
+    testing,
     config: dict | None = None,
 ):
     """Train a single KGE model using pykeen.pipeline."""
@@ -66,6 +67,7 @@ def train_model(
     result = pipeline(
         model=model_name,
         training=training,
+        testing=testing,
         validation=validation,
         model_kwargs={"embedding_dim": cfg["embedding_dim"]},
         training_kwargs={
@@ -74,7 +76,7 @@ def train_model(
         },
         optimizer_kwargs={"lr": cfg["lr"]},
         negative_sampler="basic",
-        negative_sampler_kwargs={"num_negatives_per_positive": cfg["num_negatives"]},
+        negative_sampler_kwargs={"num_negs_per_pos": cfg["num_negatives"]},
         random_seed=42,
     )
 
@@ -114,7 +116,7 @@ def run_training(
         logger.info(f"Training model: {model_name}")
         logger.info(f"{'=' * 60}")
 
-        result = train_model(model_name, training, validation, config)
+        result = train_model(model_name, training, validation, testing, config)
         save_model(result, output_dir, model_name)
         results[model_name] = result
 

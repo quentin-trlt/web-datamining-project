@@ -2,7 +2,7 @@
   "total_triples": 98971,
   "num_entities": 96151,
   "num_relations": 180,
-  "train_size": 89738,
-  "valid_size": 9233,
-  "test_size": 0
+  "train_size": 89730,
+  "valid_size": 4621,
+  "test_size": 4620
 }
